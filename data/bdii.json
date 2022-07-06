@@ -1,0 +1,1225 @@
+{
+    "types": ["T2/P1", "T2/P2", "T2/P3", "T2/P4", "T3", "T4/P1", "T4/P2", "T5", "T6-7"],
+    "questions": [
+        {
+            "question": "Se denomina transacción a un conjunto de operaciones ...",
+            "answers": [
+                {"text": "... que forman una unidad lógica de trabajo", "correct": true},
+                {"text": "... consecutivas relacionadas por temática", "correct": false},
+                {"text": "... a realizar en una Base de Datos desde un lenguaje de programación", "correct": false},
+                {"text": "... consecutivas del tipo SELECT ... FROM ... WHERE", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Una transacción puede realizarse de forma NO completa en el siguiente caso",
+            "answers": [
+                {"text": "Nunca", "correct": true},
+                {"text": "Siempre", "correct": false},
+                {"text": "Sólo cuando está aislada", "correct": false},
+                {"text": "Siempre que no sea concurrente", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Es posible la ejecución a la vez de varias transacciones?",
+            "answers": [
+                {"text": "Si, siempre que no se introducen inconsistencias en los datos", "correct": true},
+                {"text": "Si, siempre", "correct": false},
+                {"text": "Si, siempre que afecten a datos diferentes", "correct": false},
+                {"text": "No, nunca", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "O bien todas las operaciones de la transacción se realizan adecuadamente o no lo hace ninguna de ellas",
+            "answers": [
+                {"text": "Atomicidad (Atomicity)", "correct": true},
+                {"text": "Consistencia (Consistency)", "correct": false},
+                {"text": "Aislamiento (Isolation)", "correct": false},
+                {"text": "No es una definición de una propiedad ACID", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "La ejecución aislada de una transacción, bien codificada, no tiene porqué conservar la consistencia de la base de datos",
+            "answers": [
+                {"text": "No es una definición de una propiedad ACID", "correct": true},
+                {"text": "Atomicidad (Atomicity)", "correct": false},
+                {"text": "Consistencia (Consistency)", "correct": false},
+                {"text": "Aislamiento (Isolation)", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Cuando se ejecutan transacciones de forma concurrente, estas comparten los datos comunes ejecutándse todas o ninguna",
+            "answers": [
+                {"text": "No es una definición de una propiedad ACID", "correct": true},
+                {"text": "Atomicidad (Atomicity)", "correct": false},
+                {"text": "Consistencia (Consistency)", "correct": false},
+                {"text": "Aislamiento (Isolation)", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Tras el éxito de una transacción, los cambios realizados permanence, incluso aunque se produzcan fallos del sistema",
+            "answers": [
+                {"text": "Durabilidad (Durability)", "correct": true},
+                {"text": "No es una definición de una propiedad ACID", "correct": false},
+                {"text": "Consistencia (Consistency)", "correct": false},
+                {"text": "Aislamiento (Isolation)", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Qué propiedad ACID es responsabilidad del programador que codifica la transacción?",
+            "answers": [
+                {"text": "Consistencia (Consistency)", "correct": true},
+                {"text": "Atomicidad (Atomicity)", "correct": false},
+                {"text": "Aislamiento (Isolation)", "correct": false},
+                {"text": "Durabilidad (Durability)", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Modificación en la BD realizada por transacción vs anotación en registro de la modificación que realizará la transacción",
+            "answers": [
+                {"text": "Primero se anota en el registro la modificación y luego se ejecuta", "correct": true},
+                {"text": "Primero se ejecuta la modificación y luego se anota en el registro", "correct": false},
+                {"text": "Se hacen simultáneamente para garantizar la atomicidad y la durabilidad", "correct": false},
+                {"text": "El orden no es importante", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Estado tras descubrir que no puede continuar la ejecución normal (errores de hardware o lógicos)",
+            "answers": [
+                {"text": "Transacción Fallida", "correct": true},
+                {"text": "Transacción Activa", "correct": false},
+                {"text": "No es un estado de una transacción", "correct": false},
+                {"text": "Transacción Comprometida", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Estado en que permanence la transacción durante su ejecución",
+            "answers": [
+                {"text": "Transacción Activa", "correct": true},
+                {"text": "Transacción Fallida", "correct": false},
+                {"text": "No es un estado de una transacción", "correct": false},
+                {"text": "Transacción Comprometida", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Estado tras descubrir que una transacción ha resultado fallida sólo mientras se consulta el registro de operaciones",
+            "answers": [
+                {"text": "No es un estado de una transacción", "correct": true},
+                {"text": "Transacción Activa", "correct": false},
+                {"text": "Transacción Abortada", "correct": false},
+                {"text": "Transacción Parcialmente Abortada", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Existe un estado de una transacción denominado \"Parcialmente Comprometida\"?",
+            "answers": [
+                {"text": "Si, después de terminar pero antes de que la información esté grabada", "correct": true},
+                {"text": "Si, tras la ejecución de cada sentencia, salvo la última", "correct": false},
+                {"text": "Si, después de la primera sentencia y hasta que se ejecuta la última", "correct": false},
+                {"text": "No, del estado \"Activa\" se pasa al estado \"Comprometida\"", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Se pueden deshacer los cambios realizados por una transacción comprmetida?",
+            "answers": [
+                {"text": "Sólo mediante una transacción compensadora realizada por el usuario", "correct": true},
+                {"text": "Retrocediendo la transacción a parcialmente comprometida y abordándola", "correct": false},
+                {"text": "El sistema hace transacciones compensadoras cuando detecta la necesidad", "correct": false},
+                {"text": "No, nunca: va en contra de la durabilidad", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Cuál NO es una ventaja de la ejecución concurrente de transacciones?",
+            "answers": [
+                {"text": "Reducción de los fallos del sistema", "correct": true},
+                {"text": "Mejora del rendimiento del sistema", "correct": false},
+                {"text": "Mejora del uso de los recursos", "correct": false},
+                {"text": "Reducción del tiempo de espera", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Qué es una planificación?",
+            "answers": [
+                {"text": "El orden de ejecución de las instrucciones de un conjunto de transacciones", "correct": true},
+                {"text": "El orden de ejecución de las transacciones en un conjunto de transacciones", "correct": false},
+                {"text": "El estudio de las concurrencias a nivel de datos de las transacciones", "correct": false},
+                {"text": "El estudio de las concurrencias a nivel de transacciones de los datos", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Todas las planificaciones posibles generan un estado consistente en la base de datos",
+            "answers": [
+                {"text": "Verdadero", "correct": false},
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Todas las planificaciones posibles que generan estados consistentes llegan al mismo final",
+            "answers": [
+                {"text": "Verdadero", "correct": false},
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Planificación secuencial: Secuencia de instrucciones de varias transacciones ...",
+            "answers": [
+                {"text": "... en la que todas las instrucciones de cada transacción están juntas", "correct": true},
+                {"text": "... en la que las instrucciones de lectura de cada transacción están juntas", "correct": false},
+                {"text": "... en la que las instrucciones de escritura de cada transacción están juntas", "correct": false},
+                {"text": "... en la que las instrucciones de cada transacción están divididas en grupos", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Una planificación que asegure que la ejecución concurrente tiene el mismo efecto que sin concurrencia se denomina ...",
+            "answers": [
+                {"text": "... planificación serializable", "correct": true},
+                {"text": "... planificación secuencial", "correct": false},
+                {"text": "... planificación concurrente", "correct": false},
+                {"text": "... planificación aislada", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Cuando una planificación se puede transformar en otra meidante pasos no conflictivos se dice que ambas son ...",
+            "answers": [
+                {"text": "... Equivalentes", "correct": true},
+                {"text": "... Isomorfas", "correct": false},
+                {"text": "... Inconcurrentes", "correct": false},
+                {"text": "... Secuenciables", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Una planificación secuencial es siempre secuenciable",
+            "answers": [
+                {"text": "Verdadero", "correct": true},
+                {"text": "Falso", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Instrucciones de lectura/escritura en dos transacciones sobre datos diferentes, ¿generan conflictos al intercambiarlas?",
+            "answers": [
+                {"text": "No, nunca", "correct": true},
+                {"text": "Si, siempre", "correct": false},
+                {"text": "Si, si las dos son de lectura", "correct": false},
+                {"text": "Si, si al menos una es de escritura", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿Cuál de las siguientes parejas de instrucciones NO genera conflictos al intercambiarlas?",
+            "answers": [
+                {"text": "leer(A) en T1 con leer(A) en T2", "correct": true},
+                {"text": "leer(A) en T1 con escribir(A) en T2", "correct": false},
+                {"text": "escribir(A) en T1 con leer(A) en T2", "correct": false},
+                {"text": "escribir(A) en T1 con escribir(A) en T2", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es secuenciable? T1=leer(A) T2=leer(C) T1=leer(B) T2=escribir(C) T1=escribir(A) T2=leer(D) T1=escribir(B) T2=escribir(D)",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es secuenciable? T1=leer(A) T1=escribir(A) T2=leer(A) T2=escribir(A) T1=leer(B) T1=escribir(B) T2=leer(B) T2=escribir(B)",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es secuenciable? T1=leer(A) T1=leer(B) T2=leer(A) T2=escribir(A) T1=escribir(A) T1=escribir(B) T2=leer(B) T2=escribir(B)",
+            "answers": [
+                {"text": "Si", "correct": false},
+                {"text": "No", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es secuenciable? T1=leer(A) T1=A=A-50 T1=escribir(A) T2=leer(B) T2=B=B-10 T2=escribir(B) T1=leer(B) T1=B=B+50 T1=escribir(B) T2=leer(A) T2=A=A+10 T2=escribir(A)",
+            "answers": [
+                {"text": "Si", "correct": false},
+                {"text": "No", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada genera el mismo resultado que la planificación secuencial T1:T2 (Primero T1, Después T2)? T1=leer(A) T1=A=A-50 T1=escribir(A) T2=leer(B) T2=B=B-10 T2=escribir(B) T1=leer(B) T1=B=B+50 T1=escribir(B) T2=leer(A) T2=A=A+10 T2=escribir(A)",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Para determinar la secuencialidad en cuanto a conflictos de una planificación se puede usar ...",
+            "answers": [
+                {"text": "... un grafo de precedencia", "correct": true},
+                {"text": "... un árbol de precedencia", "correct": false},
+                {"text": "... un registro de precedencia", "correct": false},
+                {"text": "... una relación de precedencia", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Las aristras de un grafo de precedencia representan transacciones ...",
+            "answers": [
+                {"text": "... cun instrucciones no intercambiables por conflictos de lectura/escritura", "correct": true},
+                {"text": "... prioritarias en el acceso a los datos", "correct": false},
+                {"text": "... cuyo intercambio generaría planificaciones no secuenciables", "correct": false},
+                {"text": "... que realizan operaciones con los mismos datos", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Una planificación recuperable es aquella en la que, si T2 lee datos que ha escrito T1, ...",
+            "answers": [
+                {"text": "... la transacción T1 se compromete antes que la transacción T2", "correct": true},
+                {"text": "... la transacción T2 se compromete antes que la transacción T1", "correct": false},
+                {"text": "... la transacción T1 no se compromete", "correct": false},
+                {"text": "... la transacción T2 no se compromete", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es recuperable? T1=escribir(A) T1=commit T2=leer(A) T2=commit",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es recuperable? T1=escribir(A) T2=leer(A) T2=commit T1=commit",
+            "answers": [
+                {"text": "Si", "correct": false},
+                {"text": "No", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es recuperable? T2=leer(A) T1=escribir(A) T2=commit T1=commit",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Una planificación recuperable sin cascada es aquella en la que, si T2 lee datos que ha escrito T1, ...",
+            "answers": [
+                {"text": "... la transacción T1 se compromete antes que la operación de lectura T2", "correct": true},
+                {"text": "... la operación de escritura de T1 aparece antes de que T2 se comprometa", "correct": false},
+                {"text": "... la transacción T1 se compromete antes que la transacción T2", "correct": false},
+                {"text": "... la operación de escritura de T1 aparece antes que la operación de lectura de T2", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es recuperable sin cascada? T1=escribir(A) T2=leer(A) T1=commit T2=commit",
+            "answers": [
+                {"text": "Si", "correct": false},
+                {"text": "No", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿La planificación mostrada es recuperable sin cascada? T1=escribir(A) T1=commit T2=leer(A) T2=commit",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Muchos sistemas de bases de datos se ejecutan, de forma predeterminada, en el nivel de aislamiento ...",
+            "answers": [
+                {"text": "... lectura comprometida (leer datos comprometidos)", "correct": true},
+                {"text": "... secuenciable (normalmente asegura la ejecución secuencial)", "correct": false},
+                {"text": "... lectura repetible (comprometida y entre lecturas no hay actualización)", "correct": false},
+                {"text": "... lectura no comprometida (permite leer datos no comprometidos)", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿Qué nivel de aislamiento permite \"escrituras sucias\" (escribir datos escritos antes por transacción no comprometida)?",
+            "answers": [
+                {"text": "Ninguno", "correct": true},
+                {"text": "Todos", "correct": false},
+                {"text": "Sólo lectura no comprometida", "correct": false},
+                {"text": "Sólo lectura no repetible", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Las técnicas básicas de bloqueo sobre datos se pueden mejorar introduciendo dos tipos distintos de bloqueo",
+            "answers": [
+                {"text": "Compartidos para lectura y exclusivos para escrituras", "correct": true},
+                {"text": "Compartidos para escrituras y exclusivos para lecturas", "correct": false},
+                {"text": "Multiversión para lecturas e instantáneas para escrituras", "correct": false},
+                {"text": "Multiversión para escrituras e instantáneas para lecturas", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿Por qué el aislamiento de instantáneas es mejor, en términos de rendimiento, que las técnicas de bloqueo?",
+            "answers": [
+                {"text": "Porque los intentos de leer datos nunca tienen que esperar", "correct": true},
+                {"text": "Porque las transcciones que sólo realizan lecturas se pueden abortar", "correct": false},
+                {"text": "Porque la lectura de datos hace que las actualizaciones tengan que esperar", "correct": false},
+                {"text": "Porque las técnicas de bloqueo pueden crear estados inconsistentes", "correct": false}
+            ],
+            "type": 2
+        },
+        {
+            "question": "¿Cuáles son los dos esquemas de control de concurrencia más utilizados?",
+            "answers": [
+                {"text": "Bloqueo en dos fases y Aislamiento de instantáneas", "correct": true},
+                {"text": "Bloqueo compartido y Bloqueo exclusivo", "correct": false},
+                {"text": "Protocolos basados en marcas temporales y Bloqueo en dos fases", "correct": false},
+                {"text": "Protocolos basados en validación y Aislamiento de instantáneas", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Los protocolos basados en bloqueos se basan en que ninguna transacción puede modificar un dato mientras ...",
+            "answers": [
+                {"text": "... otra previa puede modificar el mismo dato", "correct": true},
+                {"text": "... no se actualiza la copia local de los datos", "correct": false},
+                {"text": "... las marcas temporales no se modifican", "correct": false},
+                {"text": "... la transacción previa no finalice", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Completar: Una transacción obtiene un bloqueo _________ sobre el dato X cuando puede leerlo pero no lo puede escribir",
+            "answers": [
+                {"text": "Compartido", "correct": true},
+                {"text": "Exclusivo", "correct": false},
+                {"text": "Relativo", "correct": false},
+                {"text": "Parcial", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "El conjunto de reglas que indican cuando una transacción puede bloquear y desbloquear un dato se denomina ...",
+            "answers": [
+                {"text": "Protocolo de bloqueo", "correct": true},
+                {"text": "?????", "correct": false},
+                {"text": "?????", "correct": false},
+                {"text": "?????", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Cuál es el orden correcto en la petición de un bloqueo? (T = Transacción; CC = Control de Concurrencia)",
+            "answers": [
+                {"text": "T pide bloqueo; CC concede bloqueo; T realiza operaciones", "correct": true},
+                {"text": "CC concede bloqueo; T pide bloqueo; T realiza operaciones", "correct": false},
+                {"text": "T pide bloqueo; T realiza operaciones; CC concede bloqueo", "correct": false},
+                {"text": "CC concede bloqueo; T realiza operaciones; T pide bloqueo", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Qué modos de bloqueo, solicitados por las transacciones T1 y T2, son compatibles entre si?",
+            "answers": [
+                {"text": "Compartido T1 y Compartido T2", "correct": true},
+                {"text": "Exclusivo T1 y Compartido T2", "correct": false},
+                {"text": "Compartido T1 y Exclusivo T2", "correct": false},
+                {"text": "Exclusivo T1 y Exclusivo T2", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Es posible generar estados inconsistentes utilizando protocolos de bloqueo?",
+            "answers": [
+                {"text": "Si, si los datos de desbloquean demasiado pronto", "correct": true},
+                {"text": "Si, siempre", "correct": false},
+                {"text": "Si, si se modifican los datos sin solicitar un bloqueo", "correct": false},
+                {"text": "No, nunca", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Es verdad para el protocolo de bloqueo en dos fases",
+            "answers": [
+                {"text": "Asegura la secuencialidad en cuanto a conflictos", "correct": true},
+                {"text": "Tiene una fase compartida seguida de una fase exclusiva", "correct": false},
+                {"text": "Las transacciones deben liberar bloqueos antes de obtener otros nuevos", "correct": false},
+                {"text": "Inicialmente la transacción entra en fase de decrecimiento", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Que transacción es de dos fases?",
+            "answers": [
+                {"text": "T3", "correct": true},
+                {"text": "T1", "correct": false},
+                {"text": "T2", "correct": false},
+                {"text": "T4", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Qué es un interbloqueo?",
+            "answers": [
+                {"text": "Estado en el cual varias transacciones no pueden continuar su ejecución", "correct": true},
+                {"text": "", "correct": false},
+                {"text": "", "correct": false},
+                {"text": "", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Los interbloqueos se pueden prevenir (no llegar a producirse) o detectar y recuperar (llegan y se resuelven)",
+            "answers": [
+                {"text": "Verdadero", "correct": true},
+                {"text": "Falso", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Qué es preferible, un interbloqueo o un estado inconsistente?",
+            "answers": [
+                {"text": "Interbloqueo", "correct": true},
+                {"text": "Estado inconsistente", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿En qué protocolo del gestor de concurrencia se mantiene una copia de la base para cada transacción?",
+            "answers": [
+                {"text": "En los de aislamiento de instantáneas", "correct": true},
+                {"text": "En los de bloqueos", "correct": false},
+                {"text": "En los de versiones múltiples", "correct": false},
+                {"text": "En los de marcas de tiempo", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "En esquema de control de concurrencia denominado aislamiento de instatáneas ...",
+            "answers": [
+                {"text": "... las transacciones vuelcan su espacio de datos antes de comprometerse", "correct": true},
+                {"text": "... las transacciones comparten copias locales de los datos", "correct": false},
+                {"text": "... las transacciones de actualización de datos nunca son abortadas", "correct": false},
+                {"text": "... las transacciones vuelcan su espacio de datos antes de comprometerse", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Cuáles son las principales virtudes del aislamiento de instantáneas?",
+            "answers": [
+                {"text": "Sobrecarga baja y sólo abortan transacciones que actualicen el mismo dato", "correct": true},
+                {"text": "?????", "correct": false},
+                {"text": "?????", "correct": false},
+                {"text": "?????", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Si dos transacciones entran en conflicto, la primera en obtener el bloqueo se compromete y realiza la actualización",
+            "answers": [
+                {"text": "Primera actualización gana", "correct": true},
+                {"text": "Primer compromiso gana", "correct": false},
+                {"text": "?????", "correct": false},
+                {"text": "?????", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Qué efecto hay que prevenir en el aislamiento de instantáneas?",
+            "answers": [
+                {"text": "Actualizaciones perdidas", "correct": true},
+                {"text": "Primer compromiso gana", "correct": false},
+                {"text": "Primera actualización gana", "correct": false},
+                {"text": "Fenómeno fantasma", "correct": true}
+            ],
+            "type": 3
+        },
+        {
+            "question": "¿Una transacción con un error lógico puede volver a ejecutarse sin modificaciones?",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Qué es el supuesto fallo-parada?",
+            "answers": [
+                {"text": "Los errores hardware/software no corrompen la memoria no volátil", "correct": true},
+                {"text": "Los errores hardware/software no corrompen la memoria volátil", "correct": false},
+                {"text": "Un bloqueo de disco puede perder su contenido en un fallo de disco", "correct": false},
+                {"text": "Un error lógico de una transacción puede corromper la memoria no volátil", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Los algoritmos de recuperación realizan acciones durante el procesamiento normal de las transacciones?",
+            "answers": [
+                {"text": "Si, para que exista información suficiente para permitir la recuperación", "correct": true},
+                {"text": "Si, para anticipar errores lógicos que pudieran provocar un fallo", "correct": false},
+                {"text": "No, todo está disponible en la planificación de las transacciones", "correct": false},
+                {"text": "No, la información está almacenada en la propia transacción", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Qué tipo de almacenamiento en esencial en los algoritmos de recuperación?",
+            "answers": [
+                {"text": "Almacenamiento estable", "correct": true},
+                {"text": "Almacenamiento volátil", "correct": false},
+                {"text": "Almacenamiento no volátil", "correct": false},
+                {"text": "Almacenamiento portátil", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "La forma más básica de implementar almacenamiento estable es mediante ...",
+            "answers": [
+                {"text": "... sistemas RAID de disco con imagen", "correct": true},
+                {"text": "... bloques físicos en memoria intermedia", "correct": false},
+                {"text": "... sistemas de control de concurrencia sin fallos", "correct": false},
+                {"text": "... transacciones RAID comprometidas", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Los sistemas más seguros de almacenamiento estable ...",
+            "answers": [
+                {"text": "... guardan las copias duplicadas en espacios físicos diferentes", "correct": true},
+                {"text": "... realizan tres o más imágenes de disco", "correct": false},
+                {"text": "... combinan almacenamientos volátiles con almacenamientos no volátiles", "correct": false},
+                {"text": "... gestionan la información por bloques", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "En un sistema de disco con imagen (RAID) la salida de datos (1 bloque lógico a 2 bloques físicos) está completa ...",
+            "answers": [
+                {"text": "... cuando finaliza la segunda escritura", "correct": true},
+                {"text": "... cuando finaliza la primera escritura", "correct": false},
+                {"text": "... cuando finaliza la escritura del bloque físico 1", "correct": false},
+                {"text": "... cuando finaliza la escritura del bloque físico 2", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Las transacciones operan por medio de transferencias de datos entre ...",
+            "answers": [
+                {"text": "... su área privada de trabajo y la memoria intermeida volátil", "correct": true},
+                {"text": "... su área privada de trabajo y el disco de almacenamiento estable", "correct": false},
+                {"text": "... la memoria intermeida volátil y el disco de almacenamiento estable", "correct": false},
+                {"text": "... su área privada y el disco no volátil", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Para conseguir el objetivo de la atomicidad de una transacción ...",
+            "answers": [
+                {"text": "... se almacena la información sobre las moficiaciones antes de realizarlas", "correct": true},
+                {"text": "... se realizan las modificaciones antes de almacenar su información", "correct": false},
+                {"text": "... se realizan las modificaciones sobre memoria no volátil", "correct": false},
+                {"text": "... se realizan las modificaciones sobre memoria volátil", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Dónde debe residir el registro histórico de operaciones?",
+            "answers": [
+                {"text": "Almacenamiento estable", "correct": true},
+                {"text": "Almacenamiento volátil", "correct": false},
+                {"text": "Almacenamiento no volátil", "correct": false},
+                {"text": "Almacenamiento portátil", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "En el registro de actualizaciones de datos del registro histórico NO se almacena ...",
+            "answers": [
+                {"text": "... el estado de la transacción (iniciada, comprometida, abortada)", "correct": true},
+                {"text": "... el identificador de la transacción", "correct": false},
+                {"text": "... el valor anterior del dato", "correct": false},
+                {"text": "... el valro nuevo del dato", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Se dice que una transacción modifica la base de datos si realiza una actualización ...",
+            "answers": [
+                {"text": "... en la memoria intermedia volátil o en el disco no volátil", "correct": true},
+                {"text": "... exclusivamente en la memoria intermedia volátil", "correct": false},
+                {"text": "... exclusivamente en el disco no volátil", "correct": false},
+                {"text": "... exclusivamente en almacenamiento estable", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "El registro histórico permite implementar las siguientes operaciones",
+            "answers": [
+                {"text": "Deshacer (recuperar valor anterior) y Rehacer (especificar valor nuevo)", "correct": true},
+                {"text": "Leer (recuperar valor anterior) y Escribir (especificar valro nuevo)", "correct": false},
+                {"text": "Entrada (recuperar valor anterior) y Salida (especificar valro nuevo)", "correct": false},
+                {"text": "Borrar (recuperar valor anterior) e Insertar (especificar valro nuevo)", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Se dice que una transacción es comprometida cuando ...",
+            "answers": [
+                {"text": "... todo su registro histórico se ha guardado en almacenamiento estable", "correct": true},
+                {"text": "... realiza la última actualización de la base de datos", "correct": false},
+                {"text": "... realiza su última operación de escritura", "correct": false},
+                {"text": "... todo su registro histórico se ha guardado", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Los puntos de revisión permiten ...",
+            "answers": [
+                {"text": "... reducir la carga que supondría la lectura completa del registro histórico", "correct": true},
+                {"text": "... ralentizar el procesado de transacciones", "correct": false},
+                {"text": "... asegurar el volcado de la memoria intermedia en el disco", "correct": false},
+                {"text": "... evitar un fallo en memoria estable", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "NO está permitido durante la operación de establecimiento de un punto de revisión",
+            "answers": [
+                {"text": "Actualización de base de datos o de registro histórico por transacciones", "correct": true},
+                {"text": "Escritura en almacenamiento estable del registro histórico", "correct": false},
+                {"text": "Escritura en disco de los bloques modificados en memoria intermedia", "correct": false},
+                {"text": "Actualizaciónd el registro histórico con la lista de transacciones activas", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Es lo mismo almacenamiento estable que almacenamiento no volátil?",
+            "answers": [
+                {"text": "No", "correct": true},
+                {"text": "Si", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Qué tarea NO se realiza durante un volcado de una base de datos?",
+            "answers": [
+                {"text": "Tener el mayor número posible de transacciones activas", "correct": true},
+                {"text": "Escribir en almacenamiento estbale el registro histórico", "correct": false},
+                {"text": "Escribir en disco no volátil los bloques de la memoria intermeida volátil", "correct": false},
+                {"text": "Copiar el contenido de la base de datos en almacenamiento estable", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "¿Con qué temporalidad se debería establecer un punto de revisión en el RH y/o realizar un volcado de la BD?",
+            "answers": [
+                {"text": "Depende", "correct": true},
+                {"text": "Cada hora", "correct": false},
+                {"text": "Cada día", "correct": false},
+                {"text": "Cada semana", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "No es un criterio de clasificación de medios de almacenamiento",
+            "answers": [
+                {"text": "Marca y modelo", "correct": true},
+                {"text": "Velocidad de acceso a los datos", "correct": false},
+                {"text": "Coste de adquisición por unidad de dato", "correct": false},
+                {"text": "Fiabilidad", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "El medio de almacenamiento utilizada por las bases de datos para operar con datos es ...",
+            "answers": [
+                {"text": "... la memoria principal", "correct": true},
+                {"text": "... la memoria flash", "correct": false},
+                {"text": "... el almacenamiento en cintas", "correct": false},
+                {"text": "... el jukebox", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Las memorias flash se consideran ...",
+            "answers": [
+                {"text": "... almacenamiento secundario", "correct": true},
+                {"text": "... almacenamiento primario", "correct": false},
+                {"text": "... almacenamiento terciario", "correct": false},
+                {"text": "... almacenamiento cuaternario", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "¿Qué medios físicos de almacenamiento se usan para implementar el almacenamiento estable de bases de datos?",
+            "answers": [
+                {"text": "Discos magnéticos", "correct": true},
+                {"text": "Memorias Flash", "correct": true},
+                {"text": "Caché", "correct": false},
+                {"text": "Memoria principal", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Afirmación falsa sobre los motivos de uso de los sitemas RAID hoy en día",
+            "answers": [
+                {"text": "Se usan por motivos económicos (la I de RAID significa inexpensive)", "correct": true},
+                {"text": "Se usan por su mayor fiabilidad (aumenta el tiempo medio entre fallos)", "correct": false},
+                {"text": "Se usan por su mejor rendimiento", "correct": false},
+                {"text": "Se usan por su mayor facilidad de almacenamiento", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "¿Qué niveld e RAID necesita más discos para almacenar la misma información bajo el supuesto de almacenamiento estable?",
+            "answers": [
+                {"text": "RAID 1: discos con imagen", "correct": true},
+                {"text": "RAID 0: distribución no redundante", "correct": false},
+                {"text": "RAID 2: códigos de corrección de errores", "correct": false},
+                {"text": "RAID 5: paridad distribuida", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Nivel RAID habitual en aplicaciones con requisitos moderados de almacenamiento y grandes de entrada/salida",
+            "answers": [
+                {"text": "RAID 1", "correct": true},
+                {"text": "RAID 2", "correct": false},
+                {"text": "RAID 5", "correct": false},
+                {"text": "RAID 6", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Afirmación incorrecta sobre la organización de archivos",
+            "answers": [
+                {"text": "Un bloque contiene exactamente un registro de la base de datos", "correct": true},
+                {"text": "Los archivos de la base de datos se organizan como secuencias de registros", "correct": false},
+                {"text": "Los archivos de la base de datos se dividen en bloques", "correct": false},
+                {"text": "Ningún registor de la base de datos es mayor que un bloque", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "¿Qué información no se guarda en el catálogo del sistema?",
+            "answers": [
+                {"text": "Las tuplas de las relaciones", "correct": true},
+                {"text": "El nombre de los atributos de cada relación", "correct": false},
+                {"text": "Las restricciones de integridad", "correct": false},
+                {"text": "El nombre y definición de las vistas", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Criterio a valorar para la selección de la técnica de indexación a emplear",
+            "answers": [
+                {"text": "Tiempo de inserción", "correct": true},
+                {"text": "Tipos de borrado", "correct": false},
+                {"text": "Disminución del espacio sin índice", "correct": false},
+                {"text": "Asociación ordenada", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Los atributos o conjuntos de atributos usados para buscar en un archivo se llaman ...",
+            "answers": [
+                {"text": "Clave de búsqueda", "correct": true},
+                {"text": "Clave primaria", "correct": false},
+                {"text": "Clave candidata", "correct": false},
+                {"text": "Superclave", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "El índice ordenado cuya clave de búsqueda especifica el orden secuencial del archivo que contiene los registros asociados",
+            "answers": [
+                {"text": "Índice con agrupación o índice primario", "correct": true},
+                {"text": "Índice sin agrupación o índice secundario", "correct": false},
+                {"text": "Índice con montígulos o índice indexado primario", "correct": false},
+                {"text": "Índice sin montígulos o índice indexado secundario", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "¿Qué estructura de índice es la más extendida entre las que mantiene su eficacia ante inserción y borrado?",
+            "answers": [
+                {"text": "Árbol B+", "correct": true},
+                {"text": "Grafo GR", "correct": false},
+                {"text": "Registro Z1", "correct": false},
+                {"text": "Conjunto R plus", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "En los índices por asociación, ¿cuándo se utiliza la función de asociación h(Ki)? [Ki=valores de la clave de búsqueda]",
+            "answers": [
+                {"text": "Para insertar, eliminar y buscar registros en los cajones de datos", "correct": true},
+                {"text": "Para insertar y buscar registros en los cajones de datos", "correct": false},
+                {"text": "Para buscar registros en los cajones de datos", "correct": false},
+                {"text": "Para insertar y eliminar registros en los cajones de datos", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Si la mayoría de consultas son de la forma mostrada en la figura, ¿qué esquema de índice es mejor usar? \"SELECT A1,A2,...,An FROM r WHERE Ai=c;\"",
+            "answers": [
+                {"text": "Índice asociativo", "correct": true},
+                {"text": "Índice ordenado", "correct": false},
+                {"text": "Índice de clave primaria", "correct": false},
+                {"text": "Índice de clave externa", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Si la mayoría de consultas son de la forma mostrada en la figura, ¿qué esquema de índice es mejor usar? \"SELECT A1,A2,...,An FROM r WHERE Ai<=c AND Ai>=c;\"",
+            "answers": [
+                {"text": "Índice ordenado", "correct": true},
+                {"text": "Índice asociativo", "correct": false},
+                {"text": "Índice de clave primaria", "correct": false},
+                {"text": "Índice de clave externa", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "No es un paso del procesamiento de una consulta",
+            "answers": [
+                {"text": "Evaluación", "correct": false},
+                {"text": "Optimización", "correct": false},
+                {"text": "Modelado conceptual", "correct": true},
+                {"text": "Análisis y traducción", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "De estos lenguajes, ¿cuál se emplearía por el optimizador de consultas?",
+            "answers": [
+                {"text": "Álgebra Relacional Extendida (ARE)", "correct": true},
+                {"text": "Database Access Optimizer (DAO)", "correct": false},
+                {"text": "Structured Query Language (SQL)", "correct": false},
+                {"text": "Single Optimum Access Protocol (SOAP)", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "¿Cuál es el coste más importante en una consulta?",
+            "answers": [
+                {"text": "Coste de transferencia de datos en memoria intermedia", "correct": false},
+                {"text": "Coste del acceso a los datos en memoria intermedia", "correct": false},
+                {"text": "Coste de transferencia de datos en disco no volátil", "correct": false},
+                {"text": "Coste del acceso a los datos en disco no volátil", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Si se pudiera elegir libremente, ¿qué enfoque de conexión de primitivas de evaluación sería preferible?",
+            "answers": [
+                {"text": "Reunión Natural", "correct": false},
+                {"text": "Encauzamiento", "correct": true},
+                {"text": "Agregación", "correct": false},
+                {"text": "Materialización", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "El coste de una evaluación materializada es igual a la suma de los costes de las operaciones involucradas",
+            "answers": [
+                {"text": "Verdadero", "correct": false},
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Todas las conexiones de primitivas de evaluación se pueden realizar mediante encauzamiento",
+            "answers": [
+                {"text": "Verdadero", "correct": false},
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "¿Qué no contiene un plan de ejecución de una consulta?",
+            "answers": [
+                {"text": "Los algoritmos a utilizar en cada operación", "correct": false},
+                {"text": "Las relaciones de la base de datos", "correct": false},
+                {"text": "La sintáxis SQL óptima de la consulta", "correct": true},
+                {"text": "La coordinación de operaciones (materialización o encauzamiento)", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "¿Qué consulta representa el siguiente plan de ejecución (sólo operaciones)?",
+            "answers": [
+                {"text": "SELECT A1, A2; FROM R1, (SELECT B2, B3; FROM R2; WHERE A1>0)", "correct": false},
+                {"text": "SELECT B2, B3; FROM R2, (SELECT A2, A2; FROM R1; WHERE A1>0)", "correct": false},
+                {"text": "SELECT B2, B3; FROM R2, (SELECT A1, A2; FROM R1; WHERE A1>0)", "correct": false},
+                {"text": "SELECT A1, A2; FROM R1, (SELECT B2, B3; FROM R2); WHERE A1>0", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "El optimizador de consultas encuentra siempre el plan de ejecución menos costoso",
+            "answers": [
+                {"text": "Falso", "correct": true},
+                {"text": "Verdadero", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Las consultas se pueden expresar de varias maneras diferentes, con costes de evaluación distintos",
+            "answers": [
+                {"text": "Falso", "correct": false},
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "¿Qué tiene que coincidir para que dos expresiones del álgebra relaciones se consideren equivalentes?",
+            "answers": [
+                {"text": "Generar las tuplas en el mismo orden", "correct": false},
+                {"text": "Generar el mismo conjunto de tuplas", "correct": true},
+                {"text": "Tardar el mismo tiempo", "correct": false},
+                {"text": "Estar formadas por las mismas primitivas de evaluación", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Las estimaciones de estadísticas, usadas en la optimización de consultas, no son muy precisas",
+            "answers": [
+                {"text": "Falso", "correct": false},
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Los optimizadores usan reglas generales que reducen el coste de optimización (a riesgo de no encontrar el plan óptimo)",
+            "answers": [
+                {"text": "Verdadero", "correct": true},
+                {"text": "Falso", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "¿Cómo puede un programador mejorar el coste de una consulta?",
+            "answers": [
+                {"text": "Retrasando todo lo posible las operaciones de proyección y selección", "correct": false},
+                {"text": "Adelantando todo lo posible las operaciones de proyección y selección", "correct": true},
+                {"text": "No se puede hacer nada para mejorar el coste de una consulta", "correct": false},
+                {"text": "Adelantando todo lo posible las operaciones de reunión", "correct": false}
+            ],
+            "type": 7
+        },
+        {
+            "question": "¿A qué tipo de sistema responde la figura?",
+            "answers": [
+                {"text": "Sistema Centralizado", "correct": true},
+                {"text": "Sistema Cliente-Servidor", "correct": false},
+                {"text": "Sistemas Procesador de Transacciones", "correct": false},
+                {"text": "Sistema Acceso a Datos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Los sistemas centralizados pueden ser multiusuario",
+            "answers": [
+                {"text": "Verdadero", "correct": true},
+                {"text": "Falso", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "¿Qué sistemas de base de datos carecen de control de concurrencia?",
+            "answers": [
+                {"text": "Centralizados monousuarios", "correct": true},
+                {"text": "Centralizados multiusuarios", "correct": false},
+                {"text": "Cliente-Servidor", "correct": false},
+                {"text": "Sistemas distribuidos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En los sistemas centralizados multiusuario el paralelismo se establece habitualmente a nivel de ...",
+            "answers": [
+                {"text": "Transacciones (1 transacción a cada procesador)", "correct": true},
+                {"text": "Instrucciones SQL (1 instrucción SQL a cada procesador)", "correct": false},
+                {"text": "Bloques de datos (1 bloque de datos a cada procesador)", "correct": false},
+                {"text": "Registros (1 tupla a cada procesador)", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "¿A qué tipo de sistema responde la figura?",
+            "answers": [
+                {"text": "Sistema Cliente-Servidor", "correct": true},
+                {"text": "Sistema Centralizado", "correct": false},
+                {"text": "Sistemas Procesador de Transacciones", "correct": false},
+                {"text": "Sistema Acceso a Datos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "La conexión mediante normal ODBC (y cualquiera de sus versiones particulares) es propia de una arquitectura ...",
+            "answers": [
+                {"text": "Cliente-Servidor", "correct": true},
+                {"text": "Centralizada Monousuario", "correct": false},
+                {"text": "Desconectada", "correct": false},
+                {"text": "Multiusuario", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "¿Qué arquitectura se usa más ampliamente en los servidores?",
+            "answers": [
+                {"text": "Servidor de Transacciones", "correct": true},
+                {"text": "Servidores de Datos", "correct": false},
+                {"text": "Servidores de Bloques", "correct": false},
+                {"text": "Servidores de Registros", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "¿Qué mejora el paralelismo de consultas?",
+            "answers": [
+                {"text": "La velocidad de respuesta", "correct": true},
+                {"text": "El número de datos necesarios", "correct": false},
+                {"text": "La fiabilidad del sistema", "correct": false},
+                {"text": "Los modelos de datos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Cuando los diferentes sitios de una arquitectura emplean idéntico software de gestión se habla de ...",
+            "answers": [
+                {"text": "Bases de datos distribuidas homogéneas", "correct": true},
+                {"text": "Bases de datos distribuidas heterogéneas", "correct": false},
+                {"text": "Bases de datos paralelas homogéneas", "correct": false},
+                {"text": "Bases de datos paralelas heterogéneas", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Un sistema de bases de datos que, de forma nativa, admita un sistema de tipos orientados a objetos se denomina ...",
+            "answers": [
+                {"text": "... Sistema de Bases de Datos Orientado a Objetos", "correct": true},
+                {"text": "... Sistema de Bases de Datos Relacionales", "correct": false},
+                {"text": "... Sistema de Bases de Datos Jerárquicos", "correct": false},
+                {"text": "... Sistema de Bases de Datos Documentales", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "Los atributos compuestos de Modelos Entidad-Relación se representan en SGBD orientados a objetos mediante ...",
+            "answers": [
+                {"text": "... tipos estructurados", "correct": true},
+                {"text": "... tipos simples", "correct": false},
+                {"text": "... tipos multivalorados", "correct": false},
+                {"text": "?????", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "¿Qué elemento de los Modelos Entidad-Relación permite desarrollar la herencia de tipos?",
+            "answers": [
+                {"text": "Jerarquías", "correct": true},
+                {"text": "Entidades", "correct": false},
+                {"text": "Atributos", "correct": false},
+                {"text": "?????", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "¿Qué elemento de los Modelos Entidad-Relación permite desarrollar los arrays y los multiconjuntos?",
+            "answers": [
+                {"text": "Atributos multivalorados", "correct": true},
+                {"text": "Atributos simples", "correct": false},
+                {"text": "Atributos complejos", "correct": false},
+                {"text": "?????", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "¿Cuál de los siguientes sistemas es el más utilizado?",
+            "answers": [
+                {"text": "Sistemas de correspondencia entre modelos relacionales y orientado a objetos", "correct": true},
+                {"text": "Sistemas relacionales jerárquicos en red", "correct": false},
+                {"text": "Sistemas relacionales orientados a objetos", "correct": false},
+                {"text": "Bases de datos orientados a objetos", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "Los sistemas de ayuda a la toma de decisiones son equivalentes a los sistemas de procesamiento de transacciones",
+            "answers": [
+                {"text": "Falso", "correct": true},
+                {"text": "Verdadero", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "El almacenamiento y la recuperación de datos para toma de decisiones plantea problemas, ¿cuáles?",
+            "answers": [
+                {"text": "Descubrir patrones de conocimiento ocultos es sencillo", "correct": false},
+                {"text": "Hay necesidades de información que no pueden expresarse en SQL", "correct": true},
+                {"text": "Los lenguajes de consulta no son eficaces para el análisis estadístico", "correct": true},
+                {"text": "Las fuentes de información suelen tener esquemas de datos heterogéneos", "correct": true}
+            ],
+            "type": 9
+        },
+        {
+            "question": "¿Cuántos orígenes tiene la información almacenada en un almacén de datos?",
+            "answers": [
+                {"text": "Varios", "correct": true},
+                {"text": "1", "correct": false},
+                {"text": "Exactamente 2", "correct": false},
+                {"text": "Hasta 5", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "¿Qué técnicas utiliza la minería de datos para descubrir patrones ocultos?",
+            "answers": [
+                {"text": "Inteligencia artificial", "correct": true},
+                {"text": "Análisis estadístico", "correct": false},
+                {"text": "Álgebra relacional", "correct": false},
+                {"text": "Lógica computacional", "correct": false}
+            ],
+            "type": 9
+        },
+        {
+            "question": "Manejan información estructurada",
+            "answers": [
+                {"text": "Sistemas de Bases de Datos", "correct": true},
+                {"text": "Sistemas de Recuperación de Información Textual", "correct": false},
+                {"text": "Sistemas de Recuperación de Imágenes", "correct": false},
+                {"text": "Sistemas de Recuperación de Vídeos", "correct": false}
+            ],
+            "type": 9
+        }
+    ]
+}
