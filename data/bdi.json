@@ -1,0 +1,826 @@
+{
+  "types": [ "Kahoot 1", "2", "3", "4", "5", "6", "6", "7", "8" ],
+  "questions": [
+    {
+      "question": "El Modelado Entidad-Relación es una técnica de diseño de bases de datos de tipo... ",
+      "answers": [
+        {
+          "text": "... arriba a abajo",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "La fase inicial del diseño de bases de datos es... ",
+      "answers": [
+        {
+          "text": "... la caracterización de las necesidades de datos",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "El Modelado Entidad-Relación se emplea en la fase de...",
+      "answers": [
+        {
+          "text": "... diseño conceptual",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "En la especificación de requisitos funcionales los usuarios describen...",
+      "answers": [
+        {
+          "text": "... los tipos de operaciones sobre los datos denominados transacciones",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Al diseñar una base de datos hay que asegurarse de que se evita...",
+      "answers": [
+        {
+          "text": "... la redundancia y la incompletitud de ?",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "La característica más importante de una entidad es...",
+      "answers": [
+        {
+          "text": "... que sea distinguible de cualquier otra",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Un Conjunto de Entidades (CE) agrupa Entidades que comparten...",
+      "answers": [
+        {
+          "text": "... propiedades",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Los atributos de un conhjunto de entidades (CE) son...",
+      "answers": [
+        {
+          "text": "... propiedades que describen las entidades que lo forman",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Una Relación es una asociación entre...",
+      "answers": [
+        {
+          "text": "... entidades",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Los nombres de roles, para indicar el papel que juega un conjunto de entidades en una relación, existen...",
+      "answers": [
+        {
+          "text": "... siempre",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Pueden existir relaciones en las que sólo exista un conjunto de entidades (CE)?",
+      "answers": [
+        {
+          "text": "Sí, siempre que el CE participe al menos dos veces con diferentes roles",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Un conjunto de relaciones puede tener atributos descriptivos?",
+      "answers": [
+        {
+          "text": "Si",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Definición de grado de un conjunto de relaciones",
+      "answers": [
+        {
+          "text": "Número de conjuntos de entidades que participan",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Cuál es el máximo grado de un conjunto de relaciones?",
+      "answers": [
+        {
+          "text": "No tiene límite",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Definición de atributo",
+      "answers": [
+        {
+          "text": "Propiedad de un conjunto de entidades o de un conjunto de relaciones",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "El conjunto de valores permitido para un atributo se denomina...",
+      "answers": [
+        {
+          "text": "Dominio",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Un atributo compuesto se puede dividir en atributos simples (atómicos) ?",
+      "answers": [
+        {
+          "text": "Sí, siempre",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Un atributo que toma varios valores se denomina...",
+      "answers": [
+        {
+          "text": "... multivalorado",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Un atributo derivado tiene que poder calcularse exclusivamente con otros atributos de su mismo conjunto de entidades",
+      "answers": [
+        {
+          "text": "Falso, puede utilizar atributos de otros conjuntos de entidades/relaciones",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Número máximo de entidades de un CE que se pueden asociar, mediante un conjunto de relaciones, a una entidad de otro CE ",
+      "answers": [
+        {
+          "text": "Cardinalidad",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Qué tipo de correspondencia de cardinalidad representa esta figura?",
+      "answers": [
+        {
+          "text": "Uno a varios",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Definición de clave primaria de un conjunto de entidades",
+      "answers": [
+        {
+          "text": "Conjunto mínimo de atributos que identifican cada entidad",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿A qué es 'candidata' una clave candidata?",
+      "answers": [
+        {
+          "text": "A clave principal",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Los conjuntos de relaciones tienen claves candidatas?",
+      "answers": [
+        {
+          "text": "Tienen algo parecido que depende de la cardinalidad y de la semántica",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Los atributos se repiten en todos los conjuntos de entidades y conjuntos de relaciones en los que sea necesario",
+      "answers": [
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Qué diferencia un conjunto de entidades fuertes de un conjunto de entidades débiles?",
+      "answers": [
+        {
+          "text": "Los CE débiles depende de otros conjuntos de entidades para existir",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "¿Qué es una jerarquía de especialización/generalización?",
+      "answers": [
+        {
+          "text": "Una clasificación de entidades de un conjunto en varias subclases",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Una propiedad crucial en las jerarquías es...",
+      "answers": [
+        {
+          "text": "... la herencia de atributos",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Valores posibles de la restricción de pertenencia a subclases en una jerarquía...",
+      "answers": [
+        {
+          "text": "Disjuntos/Solapados",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "Una agregación es...",
+      "answers": [
+        {
+          "text": "... un conjunto de entidades de nivel conceptual superior",
+          "correct": true
+        }
+      ],
+      "type": 1
+    },
+    {
+      "question": "El Modelo Relacional es una técnica de diseño de Bases de Datos de tipo...",
+      "answers": [
+        {
+          "text": "abajo-arriba",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "El concepto más importante en el Modelo Relacional es...",
+      "answers": [
+        {
+          "text": "... el concepto matemático de Relación",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Una relacion se puede definir matemáticamente mediante...",
+      "answers": [
+        {
+          "text": "... el producto cartesiano de los dominios de los atributos",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Una relación se representa físicamente en forma de...",
+      "answers": [
+        {
+          "text": "Tabla",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Las columnas de una tabla, que representa una relación, son...",
+      "answers": [
+        {
+          "text": "... los atributos",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Los atributos de una tabla, que representa una relación, pueden aparecer en cualquier orden",
+      "answers": [
+        {
+          "text": "Sí",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Las filas de una tabla, que representa una relación, se llaman...",
+      "answers": [
+        {
+          "text": "Tuplas",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "El conjunto de valores permitido para cada atributo se denomina...",
+      "answers": [
+        {
+          "text": "Dominio",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "¿Varios atributos pueden compartir el mismo Dominio?",
+      "answers": [
+        {
+          "text": "Sí",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "El grado de una relación es...",
+      "answers": [
+        {
+          "text": "... el número de atributos",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "La cardinalidad de una relación es...",
+      "answers": [
+        {
+          "text": "... el número de tuplas",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Propiedad de una relación: 'los nombres de las relaciones se pueden repetir'",
+      "answers": [
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Propiedad de una relación: 'cada celda debe contener un valor atómico o indivisible'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Propiedad de una relación: 'cada atributo de una relación tiene un nombre distinto'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Propiedad de una relación: 'los valores de un atributo pertenecen al mismo dominio'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Propiedad de una relación: 'puede haber tuplas duplicadas'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Propiedad de una relación: 'el orden de las tuplas no tiene importancia'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Los conceptos Superclave, Clave Candidata y Clave Principal en MRL y en MER son equivalentes'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Una clave candidata es una superclave...",
+      "answers": [
+        {
+          "text": "... que no tiene subconjuntos superclave",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "¿Un atributo de una relación puede estar en otras relaciones diferentes?",
+      "answers": [
+        {
+          "text": "Sí, como clave externa",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "Restricción de Integridad Referencial: Los valores de la ... deben existir previamente en la ... referenciada",
+      "answers": [
+        {
+          "text": "Clave Externa --> Clave Candidata",
+          "correct": true
+        }
+      ],
+      "type": 2
+    },
+    {
+      "question": "¿Cuántas tablas generan los Conjuntos de Entidades del modelo?",
+      "answers": [
+        {
+          "text": "6",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "Si Cuadros fuera una entidad débil de Pinacotecas en lugar de fuerte, ¿aumenta el número de tablas? ¿por qué?",
+      "answers": [
+        {
+          "text": "No",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "¿Cuántas tablas generan las relaciones 1:* del modelo (Estar, Pintar, Pertenecer y SerMaestro)?",
+      "answers": [
+        {
+          "text": "Ninguna --> 0",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "¿Cuántas tablas generan las relaciones *:* del modelo (SerMecenas)?",
+      "answers": [
+        {
+          "text": "1",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "El atributo multivalorado paises[n] de Escuelas, ¿aumenta el número de tablas? ¿por qué?",
+      "answers": [
+        {
+          "text": "Sí, en 1, para convertirlo en atómico",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "Si se incorpora al modelo una jerarquía de Pinacotecas, ¿aumenta el número de tablas? ¿cuántas?",
+      "answers": [
+        {
+          "text": "Si o No; según las restricciones de participación y disyunción",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "En general, ¿qué restricción en jerarquías, participación y disyunción, genera más tablas?",
+      "answers": [
+        {
+          "text": "Parcial, Disjunta",
+          "correct": true
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "¿Alguna restricción en jerarquías, participación y disyunción, aumenta el grado de las tablas?  (Respuesta de selección múltiple)",
+      "answers": [
+        {
+          "text": "Parcial, Solapada",
+          "correct": true
+          
+        },
+        {
+          "text": "Total, Solapada",
+          "correct": true
+          
+        }
+      ],
+      "type": 3
+    },
+    {
+      "question": "¿Qué lenguaje se usa para manipular una base de datos?",
+      "answers": [
+        {
+          "text": "SQL",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Las siglas SQL significan...",
+      "answers": [
+        {
+          "text": "Structured Query Language",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "La estructura básica de almacenamiento en una base de datos relacional es un/una...",
+      "answers": [
+        {
+          "text": "Tabla",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Qué tipo de formato nos permite escribir como mucho 4 letras?",
+      "answers": [
+        {
+          "text": "CHAR (4)",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Si se crea una tabla que tenga una columna llamada descripción (tamaño variable), ¿qué tipo de dato se debería utilizar?",
+      "answers": [
+        {
+          "text": "VARCHAR",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Cuántos dígitos se permiten a la derecha del signo decimal en la columna PRUEBA declarada como NUMERIC(5,3)?",
+      "answers": [
+        {
+          "text": "3",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿El valor NULL es equivalente a poner un 0?",
+      "answers": [
+        {
+          "text": "No",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Cómo se borra toda una base de datos con SQL?",
+      "answers": [
+        {
+          "text": "DROP DATABASE",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Qué clausula de SQL permite eliminar tablas de la base de datos?",
+      "answers": [
+        {
+          "text": "DROP TABLE",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Si queremos modificar la definición de una tabla (atributos) lo hacemos con la instrucción de SQL...",
+      "answers": [
+        {
+          "text": "ALTER TABLE",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Qué sentencia permite crear una tabla de nombre 'personas' (atributos: dni y nombre)?",
+      "answers": [
+        {
+          "text": "CREATE TABLE personas (dni INT, nombre VARCHAR(25))",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Qué instrucción SQL utilizamos para introducir una tupla de datos en una tabla de una base de datos?",
+      "answers": [
+        {
+          "text": "INSERT INTO",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿En cuál de las siguientes sentencias del lenguaje SQL se emplea la claúsula SET?",
+      "answers": [
+        {
+          "text": "UPDATE",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Qué clausula se usa para eliminar una o varias tuplas de una tabla?",
+      "answers": [
+        {
+          "text": "DELETE",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Insertar una fila de datos en la tabla vehículo manteniendo el orden preestablecido (id, matricula, propietario)",
+      "answers": [
+        {
+          "text": "INSERT INTO vehiculo VALUES (4, '7436GHK', 'Mirian')",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Por qué motivos puede ser interesante definir Vistas en una Base de Datos? (Respuesta de selección múltiple)",
+      "answers": [
+        {
+          "text": "Razones de Seguridad (ocultar algunos datos a los usuarios)",
+          "correct": true
+        },
+        {
+          "text": "Tener disponible consultas muy habituales",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Instrucción para la creación de Vistas",
+      "answers": [
+        {
+          "text": "CREATE VIEW",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Tipo de Vista en la que se guardan las tuplas que componen la vista",
+      "answers": [
+        {
+          "text": "Vista Materializada",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Qué claúsula utilizamos para designar una clave candidata alternativa?",
+      "answers": [
+        {
+          "text": "UNIQUE",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Cómo se establece el atributo id como primary key?",
+      "answers": [
+        {
+          "text": "id INT PRIMARY KEY",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "¿Para qué sirve una foreign key?",
+      "answers": [
+        {
+          "text": "Para relacionar dos tablas",
+          "correct": true
+        }
+      ],
+      "type": 4
+    },
+    {
+      "question": "Si no se especifica nada cuando se define una Foreign Key, ¿qué ocurre con las restricciones on update y on delete?",
+      "answers": [
+        {
+          "text": "Por defecto son NO ACTION",
+          "correct": true
+        }
+      ],
+      "type": 4
+    }
+
+  ]
+}
