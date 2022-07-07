@@ -1,5 +1,10 @@
 [
     {
+        "title": "Bases de Datos I",
+        "img": "https://sites.google.com/site/cloudnuve2015/_/rsrc/1468864958044/home/base-de-datos-eficaces/descarga.jpg",
+        "json": "bdi"
+    },
+	{
         "title": "Computación Gráfica",
         "img": "https://cdn.britannica.com/36/130736-004-591432E3/graphics-image-Utah-Teapot-computer-systems.jpg",
         "json": "coga"
@@ -9,4 +14,5 @@
         "img": "https://sites.google.com/site/cloudnuve2015/_/rsrc/1468864958044/home/base-de-datos-eficaces/descarga.jpg",
         "json": "bdii"
     }
+	
 ]
