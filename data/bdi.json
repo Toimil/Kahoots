@@ -820,6 +820,881 @@
         }
       ],
       "type": 4
+    },
+    {
+      "question": "La clausula FROM se usa para especificar...",
+      "answers": [
+        {
+          "text": "... la tabla, o tablas, con los datos seleccionados",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "Al unir 3 tablas en FROM directamente, ¿cuántas condiciones de filtrado de datos correctos se necesitan en WHERE?",
+      "answers": [
+        {
+          "text": "2",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "La clausula WHERE se usa para...",
+      "answers": [
+        {
+          "text": "... filtrar tuplas que cumplan criterios",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué ocurre cuando se crea un producto cartesiano mediante la clausula from?",
+      "answers": [
+        {
+          "text": "Todas las filas de una tabla se combinan con todas las filas de otra",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "La tabla A tiene 15 filas y la B tiene 6, ¿cuántas filas se devolverán con un producto cartesiano?",
+      "answers": [
+        {
+          "text": "90*(15*6)",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Cuál, de las siguientes clausulas, se usa para mostrar los resultados de una consulta?",
+      "answers": [
+        {
+          "text": "SELECT",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué hace la palabra clave DISTINCT cuando se utiliza en una cláusula SELECT?",
+      "answers": [
+        {
+          "text": "Elimina las filas duplicadas en el resultado",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué cláusula utilizamos para seleccionar valores únicos de una columna?",	
+      "answers": [
+        {
+          "text": "SELECT DISTINCT",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "Al mostrar varias columnas en la lista SELECT, ¿qué debería utilizar para separar las columnas?",
+      "answers": [
+        {
+          "text": "Comas",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué sentencia SQL tiene una sintaxis correcta?",
+      "answers": [
+        {
+          "text": "SELECT nombre, fecha FROM peliculas WHERE nombre = 'Aliens'",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "Al usar NATURAL JOIN se aplica una condición where sobre los atributos que tengan el mismo nombre",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Cómo se obtienen todos los nombres de personas que tienen exactamente cuatro caracteres?",
+      "answers": [
+        {
+          "text": "LIKE '____'",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "En una cláusula LIKE, ¿cómo se obtienen todos los nombres de personas que comienzan con 'Juan'?",
+      "answers": [
+        {
+          "text": "LIKE 'Juan%'",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "En SQL, para ordenar los datos devueltos por una sentencia SELECT se emplea la cláusula...",
+      "answers": [
+        {
+          "text": "ORDER BY",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué salida produce SELECT count(nombre) FROM personas?",
+      "answers": [
+        {
+          "text": "Un número con el total de personas",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Cuál de las siguientes no es una función de agregación?",
+      "answers": [
+        {
+          "text": "SELECT ()",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué funcion de grupo debería usar para mostrar el total que se paga en salarios en una tabla de empleados?",
+      "answers": [
+        {
+          "text": "SUM",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Cuál es el orden correcto DE ESCRITURA de las cláusulas en una sentencia SELECT?",
+      "answers": [
+        {
+          "text": "SELECT/FROM/WHERE/GROUP BY/HAVING/ORDER BY",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Cuál es el orden correcto DE RAZONAMIENTO de las cláusulas en una sentencia SELECT?",
+      "answers": [
+        {
+          "text": "FROM/WHERE/GROUP BY/HAVING/SELECT/ORDER BY",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "¿Qué ocurre cuando no se ha especificado una condición JOIN en una consulta de varias tablas?",
+      "answers": [
+        {
+          "text": "Un producto cartesiano",
+          "correct": true
+        }
+      ],
+      "type": 5
+    },
+    {
+      "question": "Se denomina transacción a un conjunto de operaciones...",
+      "answers": [
+        {
+          "text": "... que forman una unidad lógica de trabajo",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "Instrucción que hace que los cambios realizados en una transacción NO se guarden en la Base de Datos (deshagan efectos)",
+      "answers": [
+        {
+          "text": "ROLLBACK",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "¿Qué objetivo busca la definición de una transacción?",
+      "answers": [
+        {
+          "text": "Que sus operaciones se realicen de forma atómica (o todas o ninguna)",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "¿Qué tipo de dato combina datos de tiempo y fechas?",
+      "answers": [
+        {
+          "text": "timestamp",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "Se pueden realizar operaciones aritméticas y de comparación sobre datos temporales",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "Es posible definir varios alias diferentes basados todos en el mismo tipo de datos original",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "Para indicar que una tabla T2 debe crearse con el mismo esquema que otra ya existente T1 se usa la instrucción...",
+      "answers": [
+        {
+          "text": "CREATE TABLE T2 LIKE T1",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "La autorización de actualización de datos se concede mediante el privilegio...",
+      "answers": [
+        {
+          "text": "... UPDATE",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "Comandos SQL para conceder y revocar privilegios",
+      "answers": [
+        {
+          "text": "GRANT y REVOKE",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "El conjunto de usuarios actuales y futuros se referencia globalmente mediante el nombre de usuario...",
+      "answers": [
+        {
+          "text": "... public",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "¿Qué diferencia existe entre CREATE ROLE y CREATE GROUP?",
+      "answers": [
+        {
+          "text": "Ninguna",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "¿Qué privilegio es necesario para definir claves externas sobre tablas/vistas de otro usuario?",
+      "answers": [
+        {
+          "text": "references",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "¿Se pueden transmitir los privilegios que se reciben?",
+      "answers": [
+        {
+          "text": "Sí, si se reciben con la clausula WITH GRANT OPTION",
+          "correct": true
+        }
+      ],
+      "type": 6
+    },
+    {
+      "question": "La normalización es una técnica de diseño de Bases de Datos...",
+      "answers": [
+        {
+          "text": "... de abajo a arriba",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "La normalización se basa en aplicar al conjunto de relaciones...",
+      "answers": [
+        {
+          "text": "... una serie de pruebas ordenadas",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Mediante la aplicación de la normalización se trata de...",
+      "answers": [
+        {
+          "text": "... identificar el agrupamiento óptimo de los atributos",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "El agrupamiento de atributos se obtiene...",
+      "answers": [
+        {
+          "text": "... examinando relaciones entre atributos",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "En el estudio del cumplimiento de una regla de normalización, si una relación no cumple esa regla...",
+      "answers": [
+        {
+          "text": "... se descompone la relación en varias relaciones",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Propiedades asociadas a una descomposición válida de una relación (respuesta de selección múltiple)",
+      "answers": [
+        {
+          "text": "Combinación sin pérdidas",
+          "correct": true
+        },
+        {
+          "text": "Conservación de las dependencias",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "¿Cuál de las siguientes NO es una característica del conjunto de relaciones de una Base de Datos?",
+      "answers": [
+        {
+          "text": "Integridad referencial entre relaciones",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "¿Qué problemas genera un diseño incorrecto de una Base de Datos? (respuesta de selección múltiple)",
+      "answers": [
+        {
+          "text": "Anomalías de Actualización",
+          "correct": true
+        },
+        {
+          "text": "Anomalías de Insercción",
+          "correct": true
+        },
+        {
+          "text": "Anomalías de Borrado",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Relación Universal",
+      "answers": [
+        {
+          "text": "Conjunto de todos lo atributos de interés en una Base de Datos",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "El concepto de Dependencia Funcional describe...",
+      "answers": [
+        {
+          "text": "... la relación que existe entre conjuntos de atributos",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "La identificación de dependencias funcionales está relacionado con el significado semántico de los atributos",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Sean A y B atributos de una relación, A determina funcionalmente B, (A --> B) si...",
+      "answers": [
+        {
+          "text": "... cada valor de A determina un valor de B",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "¿Pueden existir depencias funcionales (A --> B) entre conjuntos de atributos?",
+      "answers": [
+        {
+          "text": "Sí, A y B pueden ser conjuntos de atributos",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "El conjunto de dependencias funcionales expresan la semántica de una Base de Datos",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Sea R una relación y sean A y B atributos de R; la dependencia funcional A-->B se cumple si...",
+      "answers": [
+        {
+          "text": "... para tuplas t1 y t2 si t1[A]=t2[A] y t1[B]=t2[B]",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "La parte izquierda de una dependencia funcional (A en A-->B) se denomina...",
+      "answers": [
+        {
+          "text": "Determinante",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Si A-->B, entonces siempre se cumple B-->A",
+      "answers": [
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Localizar dependencias funcionales en la normalización del Modelo Relacional es muy parecido a...",
+      "answers": [
+        {
+          "text": "... identificar entidades y relaciones en el Modelo Entidad-Relación",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Se denomina cierre, F+, de un conjunto de dependencias funcionales F a...",
+      "answers": [
+        {
+          "text": "Todas las dependencias funcionales implicadas por F",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "El cierre, F+, de un conjunto de dependencias funcionales F se calcula mediante...",
+      "answers": [
+        {
+          "text": "Las reglas de inferencia de Armstrong",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Axiomas de Armstrong: Reflexividad",
+      "answers": [
+        {
+          "text": "Si B está incluido en A => A-->B",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Axiomas de Armstrong: Aumentatividad",
+      "answers": [
+        {
+          "text": "Si A-->B => CA-->CB",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Axiomas de Armstrong: Transitividad",
+      "answers": [
+        {
+          "text": "Si A-->B y B-->C => A-->C",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Otras reglas de Armstrong: Unión",
+      "answers": [
+        {
+          "text": "Si A-->B y A--C => A-->BC",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Otras reglas de Armstrong: Descomposición",
+      "answers": [
+        {
+          "text": "Si A-->BC => A-->B y A-->C",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Otras reglas de Armstrong: Pseudotransitividad",
+      "answers": [
+        {
+          "text": "Su A-->B y BC-->D => AC-->D",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Sea R una relación, K subjunto de R es una clave candidata si...",
+      "answers": [
+        {
+          "text": "... para las tuplas t1 y t2 tales que t1≠t2, t1[K]≠t2[K]",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Determinante de una dependencia funcional que determina todos los atributos de la relación",
+      "answers": [
+        {
+          "text": "Clave Candidata",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Dos conjuntos de dependencias funcionales son equivalentes...",
+      "answers": [
+        {
+          "text": "... si sus cierres son iguales",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Un recubrimiento canónico de un conjunto de dependencias funcionales es...",
+      "answers": [
+        {
+          "text": "... el conjunto equivalente mínimo de dependencias",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Una descomposición de R en R1, R2, ... , Rn es de reunión sin pérdidas si ... (⋈=reunión natural)",
+      "answers": [
+        {
+          "text": "... r = r1⋈r2⋈...⋈rn",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Criterio para obtener una descomposición de reunión sin pérdidas (R descompuesta en R1 y R2)",
+      "answers": [
+        {
+          "text": "R1 ∩ R2 --> R1",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Una descomposición de R en R1, R2, ... , Rn conserva las dependencias si...",
+      "answers": [
+        {
+          "text": "... cada dependencia se cumple al menos en alguna relación",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Al transformar un 'buen' Modelo Entidad-Relación se obtiene un Modelo Relacional 'Normalizado'",
+      "answers": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "¿Cómo se utiliza normalmente el proceso de normalización?",
+      "answers": [
+        {
+          "text": "Técnica de validación",
+          "correct": true
+        }
+      ],
+      "type": 7
+    },
+    {
+      "question": "Definición de Base de Datos",
+      "answers": [
+        {
+          "text": "Una colección de datos relacionados",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Un Sistema Gestor de Bases de Datos (SGBD, en inglés DBMS) consiste en...",
+      "answers": [
+        {
+          "text": "... datos relacionados y programas para acceder a esos datos",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Que la información esté duplicada en varios archivos puede generar... (en los sistemas de archivos tradicionales)",
+      "answers": [
+        {
+          "text": "Redundancia",
+          "correct": true
+        },
+        {
+          "text": "Inconsistencia",
+          "correct": false
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un requisito de los Sistemas Gestores de Bases de Datos?",
+      "answers": [
+        {
+          "text": "Integridad semántica de los datos",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Qué significa el concepto de Integridad de Datos en un Sistema Gestor de Bases de Datos?",
+      "answers": [
+        {
+          "text": "Los valores de los datos tienen restricciones entre ellos",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "La gestión de datos, al desarrollar una aplicación, se debe realizar SIEMPRE mediante un Sistema Gestor de Bases de Datos",
+      "answers": [
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Niveles de Abstracción de datos en un Sistema Gestor de Bases de Datos",
+      "answers": [
+        {
+          "text": "Físico, Lógico y de Vistas",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Nivel de abstracción que describe qué datos y qué relaciones entre ellos se almacenan",
+      "answers": [
+        {
+          "text": "Lógico",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Concepto de Independencia Física de los datos",
+      "answers": [
+        {
+          "text": "Separación entre los niveles lógico y físico",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Conceptos que NO forman parte de un Modelo de Datos",
+      "answers": [
+        {
+          "text": "Conceptos para describir la validez semántica de los datos",          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un Modelo de Información (más general que sólo datos)?",
+      "answers": [
+        {
+          "text": "Lista de cuadros de pintores",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Cuál es el modelo de datos más empleado en los Sistemas Gestores de Bases de Datos?",
+      "answers": [
+        {
+          "text": "Modelo Relacional",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Qué modelos de datos se estudiaron en Bases de Datos I?",
+      "answers": [
+        {
+          "text": "Modelo Entidad-Relación y Modelo Relacional",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Un Sistema Gestor de Bases de Datos debe tener un lenguaje que permita...",
+      "answers": [
+        {
+          "text": "Definición de Datos y Consulta",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "Lenguaje más utilizado en los Sistemas Gestores de Bases de Datos",
+      "answers": [
+        {
+          "text": "SQL",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Qué estructura de datos propuso E.F. Codd al introducir su Modelo Relacional en 1970?",
+      "answers": [
+        {
+          "text": "Tablas",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "El proceso de construir un Esquema de la Base de Datos mediante un Modelo de Datos se denomina...",
+      "answers": [
+        {
+          "text": "Diseño Conceptual",
+          "correct": true
+        }
+      ],
+      "type": 8
+    },
+    {
+      "question": "¿Qué es más importante, la Atomicidad (soportar fallos del sistema) o la Concurrencia (permitir usuarios a la vez)?",
+      "answers": [
+        {
+          "text": "Las dos",
+          "correct": true
+        }
+      ],
+      "type": 8
     }
 
   ]
