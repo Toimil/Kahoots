@@ -1,0 +1,1680 @@
+{
+    "types": ["Kahoot 1", "Test 1", "Kahoot 2", "Kahoot 3", "Test 3", "Kahoot 4", "Test 4", "Kahoot 5"],
+    "questions": [
+        {
+            "question": "El objetivo de la contabilidad es:",
+            "answers": [
+                {"text": "El registro y comunicación de información útil", "correct": true},
+                {"text": "La toma de decisiones", "correct": false},
+                {"text": "Aumentar el beneficio de la empresa", "correct": false},
+                {"text": "Aumentar el valor de la empresa", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "La actividad económica surge para superar el siguiente problema económico básico:",
+            "answers": [
+                {"text": "Recursos limitados ante necesidades ilimitadas", "correct": true},
+                {"text": "Recursos limitados ante necesidades limitadas", "correct": false},
+                {"text": "Recursos ilimitados ante necesidades ilimitadas", "correct": false},
+                {"text": "Recursos ilimitados ante necesidades limitadas", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿En cuál de las siguientes empresas la responsabilidad frente a las deudas es limitada?",
+            "answers": [
+                {"text": "Una Sociedad Anónima", "correct": true},
+                {"text": "Una Sociedad Comanditaria", "correct": false},
+                {"text": "Una Sociedad Colectiva", "correct": false},
+                {"text": "Una Comunidad de Bienes", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Cuál es un usuario interno de la contabilidad?",
+            "answers": [
+                {"text": "Directivos", "correct": true},
+                {"text": "Proveedores", "correct": false},
+                {"text": "Clientes", "correct": false},
+                {"text": "Trabajadores", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Cuál de las siguientes empresas no tiene Personalidad Jurídica?",
+            "answers": [
+                {"text": "El Empresario Individual (Autónomo)", "correct": true},
+                {"text": "La Sociedad Anónima", "correct": false},
+                {"text": "La Sociedad Limitada", "correct": false},
+                {"text": "La cooperativa", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "La aportación de un Capital mínimo de 3005,06 es un requisito para:",
+            "answers": [
+                {"text": "Una Sociedad Limitada", "correct": true},
+                {"text": "Una Sociedad Anónima", "correct": false},
+                {"text": "Una Sociedad Cooperativa", "correct": false},
+                {"text": "Una Sociedad Comanditaria", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Cuál de las siguientes no es una función de la empresa?",
+            "answers": [
+                {"text": "Crear infraestructuras", "correct": true},
+                {"text": "Crear riqueza y empleo", "correct": false},
+                {"text": "Crear o aumentar la utilidad de los productos", "correct": false},
+                {"text": "Coordinar los factores productivos", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Las cooperativas son:",
+            "answers": [
+                {"text": "Sociedades de economía social", "correct": true},
+                {"text": "PYMEs", "correct": false},
+                {"text": "Sociedades personalistas", "correct": false},
+                {"text": "Sociedades capitalistas", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "El órgano supremo de decisión en una Sociedad Cooperativa se llama:",
+            "answers": [
+                {"text": "Asamblea General", "correct": true},
+                {"text": "Junta General de Accionistas", "correct": false},
+                {"text": "Junta General", "correct": false},
+                {"text": "Consejo de Interventores", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Cuál de los siguientes no es un departamento de la empresa?",
+            "answers": [
+                {"text": "Departamento de Propietarios", "correct": true},
+                {"text": "Departamento Comercial", "correct": false},
+                {"text": "Departamento de Producción", "correct": false},
+                {"text": "Departamento Financiero", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Cuando a un precio P la demanda excede la oferta entonces el precio:",
+            "answers": [
+                {"text": "Tiende a aumentar", "correct": true},
+                {"text": "Tiende a disminuir", "correct": false},
+                {"text": "Se mantiene constante", "correct": false},
+                {"text": "Puede aumentar o disminuir", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Una empresa minera pertenece al sector:",
+            "answers": [
+                {"text": "Primario", "correct": true},
+                {"text": "Secundario", "correct": false},
+                {"text": "Terciario", "correct": false},
+                {"text": "Servicios", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "El tipo de empresa más común en las PYMES es:",
+            "answers": [
+                {"text": "Empresario individual", "correct": true},
+                {"text": "Comunidad de bienes", "correct": false},
+                {"text": "S.L.", "correct": false},
+                {"text": "S.A.", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "¿Cuál de estos tipos de contabilidad es obligatoria?",
+            "answers": [
+                {"text": "Contabilidad financiera", "correct": true},
+                {"text": "Contabilidad de costes", "correct": false},
+                {"text": "Contabilidad de gestión", "correct": false},
+                {"text": "Todas", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Las finanzas buscarán la combinación óptima de elementos:",
+            "answers": [
+                {"text": "De la estructura económica/financiera para aumentar el beneficio", "correct": true},
+                {"text": "Del resultado para alcanzar el máximo beneficio", "correct": false},
+                {"text": "De la estructura económica y de la estructura financiera de la empresa", "correct": false},
+                {"text": "Los ingresos y los gastos", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "La diferencia entre el valor de los bienes producidos y el coste de los recursos usados es:",
+            "answers": [
+                {"text": "El valor añadido", "correct": true},
+                {"text": "El valor del coste de producción", "correct": false},
+                {"text": "El valor del ingreso total", "correct": false},
+                {"text": "El valor del coste fijo", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Las PYMES son un tipo de empresas que tienen:",
+            "answers": [
+                {"text": "Entre 1 y 249 trabajadores", "correct": true},
+                {"text": "Entre 1 y 49 trabajadores", "correct": false},
+                {"text": "Entre 1 y 9 trabajadores", "correct": false},
+                {"text": "Entre 50 y 249 trabajadores", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Cada una de las partes en las que se divide el capital de una Sociedad Anónima se denomina:",
+            "answers": [
+                {"text": "Acción", "correct": true},
+                {"text": "Participación", "correct": false},
+                {"text": "Aportación", "correct": false},
+                {"text": "Transacción", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "La Unión Europea dice que las microempresas son aquellas con menos de:",
+            "answers": [
+                {"text": "10 trabajadores", "correct": true},
+                {"text": "2 trabajadores", "correct": false},
+                {"text": "50 trabajadores", "correct": false},
+                {"text": "250 trabajadores", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Según la Ley de la oferta y la Demanda, cuando con un precio P la oferta supera la demanda:",
+            "answers": [
+                {"text": "El precio tiende a disminuir", "correct": true},
+                {"text": "El precio se mantiene constante", "correct": false},
+                {"text": "El precio no sigue un comportamiento homogéneo", "correct": false},
+                {"text": "El precio tiende a aumentar", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "La actividad económica trata de satisfacer necesidades limitadas mediante recursos ilimitados",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Las economías domésticas o consumidores son propietarios de los factores productivos que ofrecen a las empresas para obtener los recursos necesarios. Luego acuden al mercado de bienes y servicios para satisfacer sus necesidades",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Un factor productivo es un elemento o recurso que se utiliza para producir bienes y servicios",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "En relación al tamaño de las empresas es común diferenciar entre: PYMES, medianas y grandes empresas.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Un empresario individual tiene responsabilidad ilimitada sobre las deudas y tributaría en IRPF",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Los socios de las SA y SL tienen responsabilidad limitada al capital aportado.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Los emprendedores de responsabilidad limitada responden con su propia vivienda de las deudas generadas con su actividad ante las entidades financieras.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "El área de Recursos Humanos se encarga, entre otras tareas, de la selección de personal para la empresa",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "El área de Marketing se encarga, entre otras tareas, de la publicidad de los productos y marca de la empresa",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "La contabilidad es un sistema de información que se divide en tres fases: recogida de datos y hechos significativos, valoración y registro, y resumen y comunicación",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Existe dos grandes tipos de contabilidad en la empresa: la analítica o de costes y la de gestión",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "La contabilidad de costes en obligatoria en las SA",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "La contabilidad persigue proporcionar información útil para la toma de decisiones empresariales",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "El objetivo de las finanzas es maximizar el valor de la empresa para sus accionistas",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "La ley de oferta establece que a medida que aumenta el precio se reduce la cantidad ofertada.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "En una economía de mercado el precio y la cantidad de bienes y servicios se determina libremente en función de la oferta y la demanda",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Si en una economía de mercado se parte de un punto de no equilibrio en el cual la cantidad ofertada de un bien es mayor a la cantidad demandada, se tenderá hacía una reducción del precio del mismo hasta llegar al equilibrio.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Si en una economía de mercado se parte de un punto de no equilibrio en el cual la cantidad ofertada de un bien es menor a la cantidad demandada, se tenderá hacía un aumento del precio del mismo. Este aumento conlleva una reducción de la cantidad demandada y un aumento de la ofertada hasta llegar al nuevo punto de equilibrio.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Si en el mercado inmobiliario se parte de un punto de equilibrio a partir del cual se produce una brusca caída o reducción de la demanda de vivienda debido a la crisis económica. Podemos afirmar que esto provocará un desplazamiento de la curva de demanda a la izquierda.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Ante un desplazamiento de la curva de demanda a la izquierda (reducción de la demanda), podemos afirmar que tanto los precios como las cantidades del bien/ servicio se reducirán hasta llegar a una situación de nuevo equilibrio.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Las decisiones de financiación hacen referencia al tipo de activos que va a adquirir la empresa para desarrollar su actividad.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "Los recursos financieros con los que cuenta una empresa se clasifican en propios y ajenos.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 2
+        },
+        {
+            "question": "É un beneficio da innovación:",
+            "answers": [
+                {"text": "Todas as anteriores", "correct": true},
+                {"text": "Aumenta a competitividade", "correct": false},
+                {"text": "Prepara a empresa para o futura", "correct": false},
+                {"text": "Fidelización dos consumidores", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Que análise se basea en realizar estudos de evolución de mercados e comparativos de productos?",
+            "answers": [
+                {"text": "Análise externa", "correct": true},
+                {"text": "Análise de mercado", "correct": false},
+                {"text": "Análise financieira", "correct": false},
+                {"text": "Análise interna", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Onde se consideran aspectos como os recursos humanos e materiais dispoñibles?",
+            "answers": [
+                {"text": "Na análise interna", "correct": true},
+                {"text": "Na análise externa", "correct": false},
+                {"text": "Na análise do mercado", "correct": false},
+                {"text": "Na análise financieira", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A creatividade é a capacidade de...",
+            "answers": [
+                {"text": "Todas as anteriores", "correct": true},
+                {"text": "Resolver problemas nunha forma orixinal", "correct": false},
+                {"text": "De crear", "correct": false},
+                {"text": "Para chegar a conclusións novas", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A innovación é...",
+            "answers": [
+                {"text": "O proceso de xerar e aplicar ideas nun contexto específico", "correct": true},
+                {"text": "É a capacidade de resolver problemas nunha forma orixinal", "correct": false},
+                {"text": "Todas as anteriores", "correct": false},
+                {"text": "Atopar métodos para realizar tarefas de maneiras novas", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Que é un cambio ou innovación incremental?",
+            "answers": [
+                {"text": "Un cambio continuo", "correct": true},
+                {"text": "Un cambio que rompe co entorno", "correct": false},
+                {"text": "Un cambio discontinuo", "correct": false},
+                {"text": "Un cambio que non se produce", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A innovación que reduce custos ou aumenta a diversificación de productos chámase...",
+            "answers": [
+                {"text": "Innovación de proceso", "correct": true},
+                {"text": "Innovación organizativa", "correct": false},
+                {"text": "Innovación de producto de servizo", "correct": false},
+                {"text": "Innovación comercial", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Cal das seguintes non é un tipo de innovación?",
+            "answers": [
+                {"text": "De persoal", "correct": true},
+                {"text": "En modelo de negocio", "correct": false},
+                {"text": "Organizativa", "correct": false},
+                {"text": "De servizo", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Cal dos seguintes non é un facilitador do cambio?",
+            "answers": [
+                {"text": "Resistencia ó cambio", "correct": true},
+                {"text": "A participación", "correct": false},
+                {"text": "O compromiso", "correct": false},
+                {"text": "A comunicación", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Cal destas actividades non fomenta a creatividade?",
+            "answers": [
+                {"text": "Aumentar a eficiencia dos procesos productivos", "correct": true},
+                {"text": "Resolver problemas de forma distinta", "correct": false},
+                {"text": "Consultar e visitar aos clientes", "correct": false},
+                {"text": "Cuestionar as formas de actuación da empresa", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Cal é un factor fundamental para a innovación?",
+            "answers": [
+                {"text": "Creatividade", "correct": true},
+                {"text": "Planificación", "correct": false},
+                {"text": "Eficiencia", "correct": false},
+                {"text": "Eficacia", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A innovación comercial implica un cambio...",
+            "answers": [
+                {"text": "Nalgunha variable de mercadotecnia", "correct": true},
+                {"text": "Na promoción", "correct": false},
+                {"text": "No prezo", "correct": false},
+                {"text": "No producto", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "O ciclo de vida dun sector inclúe as seguintes fases:",
+            "answers": [
+                {"text": "Introdución, crecemento, madurez e declive", "correct": true},
+                {"text": "Innovación, crecemento, madurez e declive", "correct": false},
+                {"text": "Introdución, crecemento e madurez", "correct": false},
+                {"text": "Innovación, introdución, crecemento, madurez e declive", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A innovación en produto provoca unha vantaxe de...",
+            "answers": [
+                {"text": "Diferenciación", "correct": true},
+                {"text": "Custo e diferenciación", "correct": false},
+                {"text": "Custo", "correct": false},
+                {"text": "Excelencia operativa", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A análise PEST inclúe o estudo dos seguintes factores:",
+            "answers": [
+                {"text": "Político", "correct": true},
+                {"text": "Todos os anteriores", "correct": false},
+                {"text": "Sanitario", "correct": false},
+                {"text": "Ecolóxico", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "No modelo CANVAS dentro do segmento clientes queremos saber...",
+            "answers": [
+                {"text": "Para quen creamos o valor", "correct": true},
+                {"text": "Cal é a percepción dos nosos clientes da empresa", "correct": false},
+                {"text": "Cal é a diferenza de oferta con outras empresas", "correct": false},
+                {"text": "Cal dos problemas dos clientes resolvemos", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Cal das seguintes é unha canle de venta indirecta?",
+            "answers": [
+                {"text": "Distribuidores", "correct": true},
+                {"text": "Vendas de vía web", "correct": false},
+                {"text": "Equipo comercial", "correct": false},
+                {"text": "Tendas propias", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "A análise DAFO é unha análise?",
+            "answers": [
+                {"text": "Interna e externa da empresa", "correct": true},
+                {"text": "Do entorno da empresa", "correct": false},
+                {"text": "Externa á empresa", "correct": false},
+                {"text": "Interna da empresa", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Os ingresos xerados por unha app poden ser:",
+            "answers": [
+                {"text": "Todos os anteriores", "correct": true},
+                {"text": "Mediante unha cota por uso", "correct": false},
+                {"text": "Mediante a concesión de licencias", "correct": false},
+                {"text": "Mediante publicidade", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Cal das seguintes non é unha vantaxe do modelo canvas?",
+            "answers": [
+                {"text": "Marca unha estratexia fixa a seguir", "correct": true},
+                {"text": "É un modelo visual", "correct": false},
+                {"text": "Permite entender a relación entre os diferentes factores", "correct": false},
+                {"text": "Dá unha visión global da organización", "correct": false}
+            ],
+            "type": 3
+        },
+        {
+            "question": "Os bens, dereitos e obrigas dunha empresa son o seu:",
+            "answers": [
+                {"text": "Patrimonio", "correct": true},
+                {"text": "Pasivo", "correct": false},
+                {"text": "Capital", "correct": false},
+                {"text": "Activo", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "As débedas e obrigas dunha empresa son o seu:",
+            "answers": [
+                {"text": "Pasivo", "correct": true},
+                {"text": "Patrimonio Neto", "correct": false},
+                {"text": "Capital Contable", "correct": false},
+                {"text": "Activo", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Diferencia aritmética entre o activo e pasivo:",
+            "answers": [
+                {"text": "Patrimonio Neto", "correct": true},
+                {"text": "Pasivo", "correct": false},
+                {"text": "Capital Social", "correct": false},
+                {"text": "Patrimonio", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "A conta anticipo a proveedores é:",
+            "answers": [
+                {"text": "Menor pasivo circulante", "correct": true},
+                {"text": "Activo fixo", "correct": false},
+                {"text": "Pasivo circulante", "correct": false},
+                {"text": "Menor activo circulante", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Activos igual a pasivo mais o patrimonio neto é a:",
+            "answers": [
+                {"text": "Ecuación patrimonial", "correct": true},
+                {"text": "Base da contabilidade", "correct": false},
+                {"text": "Balance", "correct": false},
+                {"text": "Definición da contabilidade", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Grupo que constituen os recursos permanentes propiedade da empresa:",
+            "answers": [
+                {"text": "Activo non corrente", "correct": true},
+                {"text": "Activo corrente", "correct": false},
+                {"text": "Pasivo corrente", "correct": false},
+                {"text": "Pasivo non corrente", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Débedas e obrigas a cargo da empresa:",
+            "answers": [
+                {"text": "Pasivo", "correct": true},
+                {"text": "Capital", "correct": false},
+                {"text": "Pasivo non Corrente", "correct": false},
+                {"text": "Pasivo corrente", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "A conta bancos sempre será un:",
+            "answers": [
+                {"text": "Activo corrente", "correct": true},
+                {"text": "Activo non corrente", "correct": false},
+                {"text": "Activo fixo", "correct": false},
+                {"text": "Patrimonio neto", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Os equipos informáticos dunha empresa consultora son unha conta de:",
+            "answers": [
+                {"text": "Activo non corrente", "correct": true},
+                {"text": "Activo corrente", "correct": false},
+                {"text": "Pasivo corrente", "correct": false},
+                {"text": "Patrimonio neto", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "A conta acreedores a corto prazo pertence ao:",
+            "answers": [
+                {"text": "Pasivo corrente", "correct": true},
+                {"text": "Activo corrente", "correct": false},
+                {"text": "Pasivo non corrente", "correct": false},
+                {"text": "Activo non corrente", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "O balance de situación é un estado financeiro das empresas para informar sobre:",
+            "answers": [
+                {"text": "O seu patrimonio nunha data", "correct": true},
+                {"text": "O resultado", "correct": false},
+                {"text": "O seu patrimonio nun periodo", "correct": false},
+                {"text": "O seu capital", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Cal desas contas non está no activo corrente ou circulante:",
+            "answers": [
+                {"text": "Provedores", "correct": true},
+                {"text": "Existencias", "correct": false},
+                {"text": "Clientes", "correct": false},
+                {"text": "Materias primas", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Un coche para un concesionario sería:",
+            "answers": [
+                {"text": "Unha Mercadoría", "correct": true},
+                {"text": "Un activo non corrente", "correct": false},
+                {"text": "Un elemento de transporte", "correct": false},
+                {"text": "Ningunha das anteriores", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "O resultado obtense pola diferencia entre:",
+            "answers": [
+                {"text": "A corrente de bens e servizos xerados e a de consumidos", "correct": true},
+                {"text": "Activos e pasivos", "correct": false},
+                {"text": "Cobros e pagos", "correct": false},
+                {"text": "Pagos e cobros", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Os impostos son:",
+            "answers": [
+                {"text": "Ningunha das anteriores", "correct": true},
+                {"text": "Un gasto de explotación", "correct": false},
+                {"text": "Un gasto financeiro", "correct": false},
+                {"text": "Un pago", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Un resultado positivo da empresa implica:",
+            "answers": [
+                {"text": "Un aumento do patrimonio neto", "correct": true},
+                {"text": "Que os cobros foron maiores que os pagos", "correct": false},
+                {"text": "Que os ingresos foron maiores que os pagos", "correct": false},
+                {"text": "Pode aumentar ou disminuir o patrimonio neto", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Cal dos seguintes é un feito contable:",
+            "answers": [
+                {"text": "Recibir unha factura que non se paga", "correct": true},
+                {"text": "Subida do prezo da luz nun 2%", "correct": false},
+                {"text": "A promoción dun empregado", "correct": false},
+                {"text": "Un premio a empresa que non implica un pago", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "O valor que se asigna a un elemento patrimonial:",
+            "answers": [
+                {"text": "Depende da súa función na empresa", "correct": true},
+                {"text": "É sempre o mesmo", "correct": false},
+                {"text": "Ven asignado pola dirección", "correct": false},
+                {"text": "Todas as anteriores son correctas", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Un edificio:",
+            "answers": [
+                {"text": "Pode ser un activo corrente ou non corrente", "correct": true},
+                {"text": "Sempre é un activo non corrente", "correct": false},
+                {"text": "Sempre é un activo corrente", "correct": false},
+                {"text": "Estará na partida construcción", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "Se o resultado de explotación dunha sociedade anónima é positivo:",
+            "answers": [
+                {"text": "Non sabemos se a empresa pagará o imposto de sociedades", "correct": true},
+                {"text": "Os ingresos son maiores que os gastos", "correct": false},
+                {"text": "Os ingresos son maiores que os pagos", "correct": false},
+                {"text": "A empresa pagara o imposto de sociedades", "correct": false}
+            ],
+            "type": 4
+        },
+        {
+            "question": "O patrimonio é o conxunto de bens, dereitos e deberes ou obrigacións que ten unha empresa para levar a cabo a produción de bens e servizos.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As situacións xurídicas nas que a empresa se atopa en posición debedora fronte a terceiros son as súas obrigacións",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "O patrimonio representa o aspecto económico (fontes de financiamento) e financeiro (bens e dereitos) da empresa",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As masas patrimoniais son unha agrupación de elementos patrimoniais que teñen distinta funcionalidade económica ou financeira",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "A grandes masa patrimoniais son: activo, pasivo e patrimonio neto",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Os edificios que usa a empresa pero que son propiedade de terceiros, non se contabilizan como activos da nosa empresa senón que serán do seu dono",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Os créditos aos clientes ou os préstamos aos traballadores son obrigacións da empresa",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As débedas con Facenda ou os préstamos cos bancos son obrigacións da empresa",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Dada a definición dun activo non se podería considerar como tal un edificio que a empresa espera comprar dentro dun ano",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Un elemento de transporte (camión, coche, etc.) que a empresa teña alugado contabilizarase como un gasto por aluguer.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Un elemento de transporte (camión, coche, etc.) que a empresa compre contabilizarase como un gasto.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Un elemento de transporte (camión, coche, etc.) que a empresa compre contabilizarase como un investimento.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Cando unha empresa compra unha existencia (materias primas, mercadorías, etc.) contabiliza un investimento.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Cando unha empresa vende un inmobilizado, por exemplo un terreo, contabiliza unha desinversión.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Cando unha empresa vende un inmobilizado, por exemplo un terreo, contabiliza un ingreso.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As construcións ou elementos de transporte son inmobilizados intanxibles.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Os terreos e investimentos mantidos como investimento e non para o seu uso son investimentos inmobiliarios",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As mercadorías ou materias primas son existencias",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Os dereitos de cobro a curto prazo con clientes son investimentos financeiros a curto prazo",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "A tesouraría é o diñeiro líquido que posúe a empresa",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As débedas a curto prazo e os acredores comerciais son parte do patrimonio neto dunha compañía",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "O patrimonio neto dunha empresa ten dúas funcións básicas: financiamento dos activos e servir de garantía fronte a terceiros",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Unha diminución dun elemento de activo figura no haber dunha conta",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Unha diminución dun elemento de neto figura no haber dunha conta",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Os ingresos reflíctense no haber",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Os gastos reflíctense no haber",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "As reservas forman parte dos fondos propios",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Todos os gastos da compañía supoñen no seu momento de contabilización un pago",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "Un gasto da compañía supón xeralmente ou un pago ou un aumento do pasivo (unha débeda)",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 5
+        },
+        {
+            "question": "O marco legal contable obrigatorio para todas as empresas chámase:",
+            "answers": [
+                {"text": "Plan xeral de contas ou de contabilidade", "correct": true},
+                {"text": "Auditoria do plan de contas", "correct": false},
+                {"text": "Normas básicas de contabilidade", "correct": false},
+                {"text": "Plan oficial de contas", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Sinala a afirmación correcta",
+            "answers": [
+                {"text": "a e b son falsas", "correct": true},
+                {"text": "a) Gasto e ingreso é o mesmo", "correct": false},
+                {"text": "b) Ingreso e cobro é o mesmo", "correct": false},
+                {"text": "a e b son verdadeiras", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "O conxunto de bens e dereitos de cobro chámase",
+            "answers": [
+                {"text": "Activo", "correct": true},
+                {"text": "Beneficio", "correct": false},
+                {"text": "Neto", "correct": false},
+                {"text": "Pasivo", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "O valor real dunha empresa seguindo o balance chámase",
+            "answers": [
+                {"text": "Patrimonio neto ou simplemente Neto", "correct": true},
+                {"text": "Beneficio", "correct": false},
+                {"text": "Activo", "correct": false},
+                {"text": "Pasivo", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "O activo e pasivo divídense en dous grandes grupos que se chaman",
+            "answers": [
+                {"text": "Corrente e NON corrente", "correct": true},
+                {"text": "Curto e longo prazo", "correct": false},
+                {"text": "Inmovilizado e disponible", "correct": false},
+                {"text": "Ningunha resposta é correcta", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "As materias primas e mercadorías dunha empresa son exemplos de:",
+            "answers": [
+                {"text": "Activo corrente", "correct": true},
+                {"text": "Activo non corrente", "correct": false},
+                {"text": "Pasivo corrente", "correct": false},
+                {"text": "Pasivo non corrente", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "As débedas coa Seguridade Social son un:",
+            "answers": [
+                {"text": "Pasivo corrente", "correct": true},
+                {"text": "Activo corrente", "correct": false},
+                {"text": "Activo non corrente", "correct": false},
+                {"text": "Pasivo non corrente", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "O activo sempre debe ser igual a",
+            "answers": [
+                {"text": "Pasivo + Neto", "correct": true},
+                {"text": "Pasivo/neto", "correct": false},
+                {"text": "Pasivo – neto", "correct": false},
+                {"text": "Pasivo + resultados", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Todo feito contable ten una orixe e un destino, afectando ao Debe e Haber. Isto chámase:",
+            "answers": [
+                {"text": "Método de partida doble.", "correct": true},
+                {"text": "Apunte doble", "correct": false},
+                {"text": "Ecuación patrimonial", "correct": false},
+                {"text": "Conta doble", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Os principais libros contables obligatorios son",
+            "answers": [
+                {"text": "Libro diario, de Inventarios e Contas anuais", "correct": true},
+                {"text": "Libro diario, maior e de inventarios", "correct": false},
+                {"text": "Libro maior, de inventarios e auxiliares", "correct": false},
+                {"text": "Libro diario, maior e de contas anuais", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "A conta que recolle os ingresos e gastos durante un período é a:",
+            "answers": [
+                {"text": "Conta de Resultados ou de Perdas e Ganancias.", "correct": true},
+                {"text": "Conta de resultados ou de perdas e beneficios", "correct": false},
+                {"text": "Conta de balance ou de perdas e ganancias", "correct": false},
+                {"text": "Ningunha resposta é a correcta", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Cando os Gastos son maiores que os Ingresos a empresa ten",
+            "answers": [
+                {"text": "Perdas", "correct": true},
+                {"text": "Débedas", "correct": false},
+                {"text": "Beneficios", "correct": false},
+                {"text": "Ningunha resposta é a correcta", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "O diñeiro en efectivo dentro da empresa chámase",
+            "answers": [
+                {"text": "Caixa", "correct": true},
+                {"text": "Líquido", "correct": false},
+                {"text": "Beneficios", "correct": false},
+                {"text": "Tesourería", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Sinala a resposta verdadeira en relación ás contas anuais",
+            "answers": [
+                {"text": "A memoria forma parte das contas anuais", "correct": true},
+                {"text": "Están formadas por balance e conta de PeG", "correct": false},
+                {"text": "Están formadas por balance, conta de PeG e memoria", "correct": false},
+                {"text": "O libro maior forma parte das contas anuais", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "O informe que recolle una fotografía económica e financeira da empresa é",
+            "answers": [
+                {"text": "Balance de Situación", "correct": true},
+                {"text": "Memoria do exercicio", "correct": false},
+                {"text": "Conta de resultados", "correct": false},
+                {"text": "Contas anuais", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "¿Que información recolle un orzamento de tesourería?",
+            "answers": [
+                {"text": "A previsión de Pagos e Cobros", "correct": true},
+                {"text": "A previsión de ingresos e gastos dun exercicio contable", "correct": false},
+                {"text": "Os investimentos e pagos dun periodo", "correct": false},
+                {"text": "Ningunha das anteriores", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Sinala a resposta verdadeira en relación ás contas anuais",
+            "answers": [
+                {"text": "a e b son falsas", "correct": true},
+                {"text": "a) A súa realización corresponde ao contable.", "correct": false},
+                {"text": "b) Refirense a un ano natural.", "correct": false},
+                {"text": "a e b son verdadeiras", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Sinala a resposta verdadeira en relación ás contas anuais",
+            "answers": [
+                {"text": "a e b son verdadeiras", "correct": true},
+                {"text": "a e b son falsas", "correct": false},
+                {"text": "a) O balance elabórase a partir das contas do asento peche.", "correct": false},
+                {"text": "b) A conta de PeG elabórase coas contas do resultado.", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "Os libros contables son",
+            "answers": [
+                {"text": "Todas son correctas", "correct": true},
+                {"text": "Deben ter as anotación sordeadas", "correct": false},
+                {"text": "Teñen valor probatorio", "correct": false},
+                {"text": "Responsabilidade do empresario", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "A apertura de contabilidade faise",
+            "answers": [
+                {"text": "A partir do inventario inicial.", "correct": true},
+                {"text": "O día 1 de xaneiro", "correct": false},
+                {"text": "Empregando os elementos patrimoniais, ingresos e gastos", "correct": false},
+                {"text": "Todas as anteriores", "correct": false}
+            ],
+            "type": 6
+        },
+        {
+            "question": "As fases do ciclo contable son catro",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O resultado de explotación é a suma dos ingresos de explotación e financeiros",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O resultado financeiro é a suma dos ingresos e gastos financeiros",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O resultado antes de impostos é a suma do resultado de explotación e resultado financeiro",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Os gastos de persoal que ten unha empresa contabilizaríanse dentro do resultado de explotación",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O resultado financeiro estaría formado polos ingresos e gastos financeiros tales como intereses cobrados e pagados",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "As mercadorías da empresa (materias primas, etc.) amortízanse",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando a empresa concede a outra empresa un crédito a longo prazo, e a peche de exercicio contable quédalle menos dun ano para a súa devolución, terá que reclasificalo como a curto prazo",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "As achegas de capital dos socios non teñen por que ser en diñeiro, podendo achegarse bens",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O resultado de explotación sempre é maior que o financeiro",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando unha empresa cobra uns intereses polos créditos concedidos a outras empresas ou polas súas contas bancarias terá un ingreso de explotación",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha empresa contrata a 1/1 unha campaña de publicidade e paga 5.000€. A campaña durará dous anos, polo que a empresa ten un pago de 5.000€ pero o gasto deste ano só sería de 2.500€",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Os gastos dunha empresa coinciden cos seus pagos",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Os ingresos de explotación das empresas comerciais e industriais proveñen principalmente da venda de mercadorías e de produtos terminados respectivamente",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Os ingresos de explotación das empresas de consultaría proveñen principalmente das prestacións de servizos aos seus clientes.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha empresa comprou un coche por 10.000€, estima que non ten valor residual e que a súa vida útil será de 5 anos. A amortización anual dese inmobilizado será de 2.000€ anuais.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha empresa comprou un coche por 10.000€, estima que non ten valor residual e que a súa vida útil será de 5 anos. O valor real que tería ese coche ao final dun ano será de 8.000€, é dicir o valor inicial menos a amortización acumulada.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha empresa comprou un coche por 10.000€, estima que non ten valor residual e que a súa vida útil será de 5 anos. O valor real que tería ese coche ao final de dous anos será de 6.000€, é dicir o valor inicial menos a amortización acumulada.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando unha empresa cobra un servizo nun ano que prestou o ano anterior, a empresa recoñece un ingreso e un dereito de cobro sobre os seus clientes.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando unha empresa cobra un servizo nun ano que prestou o ano anterior, a empresa recoñece un cobro e cancela o dereito de cobro que tiña.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando a 1/1 figura un dereito de cobro sobre un cliente por importe de 1.000€ e posteriormente este fai fronte ao pago da súa débeda. No balance a 31/12 recollerase un dereito de cobro sobre o devandito cliente polo importe de 1.000€",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando a 1/12 figura unha débeda cun provedor por importe de 1.000€ e posteriormente faise fronte ao pago da metade da devandita débeda. No balance a 31/12 recollerase un pasivo corrente (débeda con provedores) polo importe de 1.000€",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando a 1/12 figura unha débeda cun provedor por importe de 1.000€ e posteriormente faise fronte ao pago da metade da devandita débeda. No balance a 31/12 recollerase un pasivo corrente (débeda con provedores) polo importe de 500€",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Poderíase dar o caso dunha empresa que contabilizará un resultado negativo do exercicio (G>I) e que tivese moito diñeiro en efectivo.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Os activos correntes amortízanse",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "En xeral os terreos dunha empresa non se amortizan",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Se os activos dunha empresa están sobrevalorados debésese facer unha deterioración de valor dos mesmos de forma que se reduza o seu valor.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "No libro Maior en Banco figurará un saldo debedor de 2.000€ se: a inicio de ano a empresa tiña en Banco 2.000€, incrementouse o seu saldo en 5.000€ (cobros) e reduciuse en 3.000€ (pagos) ao longo do ano.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Se unha empresa a inicio de ano tiña en Banco 2.000€, e tivo gastos por importe de 1.000€ e ingresos por importe de 2.000€ sabemos que ao final de ano terá no seu Banco 3.000€",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha empresa cando amortiza terá menos diñeiro en efectivo.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "As empresas están obrigadas a repartir todo o resultado do ano en dividendos.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Os dividendos dunha empresa repártense entre os seus accionistas, propietarios ou donos.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha empresa reparte en dividendos 10.000€ e outra 20.000€, podemos afirmar que a segunda empresa obtivo máis resultado no último ano.",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Cando unha empresa aluga a outra un local contabilizará un ingreso por alugueres, mentres que a que o usa contabilizará un gasto.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Unha local propiedade da empresa xera un gasto por amortización.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Un local non propiedade da empresa non xera un gasto por amortización.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Dise que unha empresa está moi endebedada cando ten moitos activos",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Nunha empresa o verdadeiro consumo de existencias non son só as compras senón que habería que considerar o que aumentaron ou diminuíron as existencias en almacén, por medio dun reconto ou inventario.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O patrimonio representa o aspecto económico e financeiro dunha empresa. No aspecto financeiro distínguense as fontes de financiamento propias (Pasivo) e alleas (Patrimonio Neto).",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Son activos correntes dunha empresa aqueles que a empresa espera vender, consumir ou realizar nun prazo ou período de tempo superior ao ciclo normal de explotación (normalmente 1 ano).",
+            "answers": [
+                {"text": "Falso", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O balance representa o patrimonio dunha empresa, ordenando os activos de menor a maior liquidez e os pasivos de menor a maior esixibilidade.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Dentro dos fondos propios dunha empresa podemos falar de: Capital, Reservas, Resultados negativos de exercicios anteriores e do Resultado do exercicio (beneficio ou perda).",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "Activos dunha empresa como a propiedade industrial, as concesións administrativas, as aplicacións informáticas, etc. recolleríanse como Inmobilizados inmateriais",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "O Consumo de mercadorías dunha empresa que realizou Compras de mercadorías durante o ano por importe de 1.000 € e cuxas existencias de mercadorías reducíronse durante o ano en 100€ é de 1.100€.",
+            "answers": [
+                {"text": "Verdadero", "correct": true}
+            ],
+            "type": 7
+        },
+        {
+            "question": "A capacidade da empresa para pagar as súas débedas cos seus investimentos chámase:",
+            "answers": [
+                {"text": "Solvencia", "correct": true},
+                {"text": "Garantía", "correct": false},
+                {"text": "Morosidade", "correct": false},
+                {"text": "Liquidez", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "A fórmula do FONDO DE MANIOBRA pode ser:",
+            "answers": [
+                {"text": "AC-PC", "correct": true},
+                {"text": "PNC - AC", "correct": false},
+                {"text": "ANC - PC", "correct": false},
+                {"text": "ANC - (PN + PnC)", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "A empresa interésalle ter un FONDO DE MANIOBRA",
+            "answers": [
+                {"text": "Positivo", "correct": true},
+                {"text": "Negativo", "correct": false},
+                {"text": "Indiferente", "correct": false},
+                {"text": "Nulo", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Cando parte dos investimentos a LONGO PRAZO están financiadas con esixible a CORTO PRAZO",
+            "answers": [
+                {"text": "FM(-)", "correct": true},
+                {"text": "FM = 0", "correct": false},
+                {"text": "¿FM?", "correct": false},
+                {"text": "FM (+)", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Cando as fontes de financiamento son TODO RECURSOS PROPIOS a situación financeira é:",
+            "answers": [
+                {"text": "Estabilidade Financeira total", "correct": true},
+                {"text": "Desequilibrio financeiro", "correct": false},
+                {"text": "Suspensión de pagos", "correct": false},
+                {"text": "Estabilidade financeira normal", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Cando o Activo corrente é superior ao esixible a corto prazo a situación financeira é de :",
+            "answers": [
+                {"text": "Estabilidade financeira normal", "correct": true},
+                {"text": "Situación de quebra", "correct": false},
+                {"text": "Estabilidade financeira total", "correct": false},
+                {"text": "Suspensión de pagos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Cando todo o financiamento da empresa é esixible a corto e longo prazo existe un",
+            "answers": [
+                {"text": "Desequilibrio Financeiro a longo prazo", "correct": true},
+                {"text": "Estabilidade financeira total", "correct": false},
+                {"text": "Un fondo de maniobra positivo", "correct": false},
+                {"text": "Todas as anteriores son falsas", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "O ratio de tesourería é:",
+            "answers": [
+                {"text": "Tesouraría entre pasivo circulante", "correct": true},
+                {"text": "Aconsellable que sexa superior a 2", "correct": false},
+                {"text": "Tesourería entre pasivo", "correct": false},
+                {"text": "Aconsellable que sexa inferior a 1", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "A análise financeira inclúe:",
+            "answers": [
+                {"text": "Todas son correctas", "correct": true},
+                {"text": "Análise de solvencia", "correct": false},
+                {"text": "Análise de rendibilidade", "correct": false},
+                {"text": "Análise de tendencia", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "A análise de porcentaxes verticais",
+            "answers": [
+                {"text": "Realizase sobre unha variable relevante", "correct": true},
+                {"text": "Realizase sobre as contas de activo", "correct": false},
+                {"text": "Realizase sobre un ano específico", "correct": false},
+                {"text": "Realizase sobre as contas de resultados", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "O ratio de circulante",
+            "answers": [
+                {"text": "É o cociente entre AC e PC", "correct": true},
+                {"text": "É o cociente AC menos existencias entre o PC", "correct": false},
+                {"text": "É dinámico", "correct": false},
+                {"text": "É difícil de manipular", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "A estrutura financeira da empresa esta composta",
+            "answers": [
+                {"text": "Por obrigas e recursos propios", "correct": true},
+                {"text": "Bens, dereitos e obrigas", "correct": false},
+                {"text": "Bens, dereitos, obrigas e recursos propios", "correct": false},
+                {"text": "Bens e dereitos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En relación ao ratio de endebemento sinala a resposta correcta:",
+            "answers": [
+                {"text": "A maior valor maior é o risco da estrutura financeira", "correct": true},
+                {"text": "É o cociente entre pasivo a longo prazo e patrimonio neto", "correct": false},
+                {"text": "Mide a capacidade de pago de empresa", "correct": false},
+                {"text": "Ten un valor óptimo entre 1 e 2", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En relación a rendibilidade económica sinala a resposta correcta:",
+            "answers": [
+                {"text": "Mostra a rendibilidade dos activos totais", "correct": true},
+                {"text": "Non mide a eficacia na xestión empresarial", "correct": false},
+                {"text": "Depende da financiación empregada", "correct": false},
+                {"text": "É o beneficio de explotación entre activos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En relación a rendibilidade financeira sinala a resposta correcta",
+            "answers": [
+                {"text": "É o beneficio neto entre o patrimonio medio", "correct": true},
+                {"text": "É independente da financiación empregada", "correct": false},
+                {"text": "É unha medida da eficacia na xestión empresarial", "correct": false},
+                {"text": "É o beneficio de explotación entre o patrimonio medio", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En relación a rotación dos activos sinala a resposta correcta:",
+            "answers": [
+                {"text": "É o número de veces que se recupera o activo vía ventas", "correct": true},
+                {"text": "Aproxima á eficiencia ou produtividade da empresa", "correct": false},
+                {"text": "Son as entas totais entre o activo medio", "correct": false},
+                {"text": "Todas as anteriores son correctas", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En relación ao rateo de liquidez sinala a resposta correcta:",
+            "answers": [
+                {"text": "É o rateo entre AC menos existencias e pasivo corrente", "correct": true},
+                {"text": "É positivo que sexa moi alto", "correct": false},
+                {"text": "É o rateo entre tesourería e activo total", "correct": false},
+                {"text": "É o rateo entre tesourería e pasivo total", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "En relación aos rateos sinala a resposta correcta:",
+            "answers": [
+                {"text": "Poden variar dependendo das características da industria", "correct": true},
+                {"text": "Relacionan valores do patrimonio da empresa", "correct": false},
+                {"text": "Teñen uns valores óptimos", "correct": false},
+                {"text": "Existe un listado oficial de rateos", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "A análise de estados financeiros",
+            "answers": [
+                {"text": "Empregase para a toma de decisións na empresa", "correct": true},
+                {"text": "Realízase con información do balance", "correct": false},
+                {"text": "So pode ser realizada por auditores", "correct": false},
+                {"text": "Ningunha das anteriores", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "Na análise de información financeira",
+            "answers": [
+                {"text": "Emprégase análises de solvencia e rendibilidade.", "correct": true},
+                {"text": "Os obxectivos son similares para todos os usuarios", "correct": false},
+                {"text": "So se realiza a final do exercicio económico", "correct": false},
+                {"text": "Os valores dos rateos incluiránse nas contas anuais", "correct": false}
+            ],
+            "type": 8
+        },
+        {
+            "question": "",
+            "answers": [
+                {"text": "", "correct": true},
+                {"text": "", "correct": false},
+                {"text": "", "correct": false},
+                {"text": "", "correct": false}
+            ],
+            "type": 8
+        }
+    ]
+}
