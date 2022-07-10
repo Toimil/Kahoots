@@ -1665,16 +1665,6 @@
                 {"text": "Os valores dos rateos incluiránse nas contas anuais", "correct": false}
             ],
             "type": 8
-        },
-        {
-            "question": "",
-            "answers": [
-                {"text": "", "correct": true},
-                {"text": "", "correct": false},
-                {"text": "", "correct": false},
-                {"text": "", "correct": false}
-            ],
-            "type": 8
         }
     ]
 }
