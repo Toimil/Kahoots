@@ -1,0 +1,123 @@
+{
+    "types": ["Kahoot 1", "Kahoot 2", "Kahoot 3"],
+    "questions": [
+        {
+            "question": "Para que ocurra una carrera crítica hacen falta:",
+            "answers": [
+                {"text": "Dos procesos", "correct": true},
+                {"text": "Dos usuarios trabajando simultáneamente", "correct": false},
+                {"text": "Dos cores", "correct": false},
+                {"text": "Dos niveles de caché", "correct": false}
+            ],
+            "type": 1
+        },
+        {
+            "question": "Un lugar donde ocurren muchas carreras críticas es...",
+            "answers": [
+                {"text": "En el kernel del Sistema Operativo", "correct": true},
+                {"text": "En la memoria cache", "correct": false},
+                {"text": "En las aplicaciones de juegos", "correct": false},
+                {"text": "En el espacio de usuario de la memoria virtual", "correct": false}
+            ],
+            "type": 1
+        },
+        
+        {
+            "question": "Usando sleep puedo eliminar carreras críticas",
+            "answers": [
+                {"text": "Falso, con ella solo se puede conseguir que sean menos probables", "correct": true},
+                {"text": "Cierto, solo hay que buscar los valores apropiados para la función", "correct": false},
+                {"text": "Cierto, si se llama justo antes de entrar en la región crítica", "correct": false},
+                {"text": "Falso, solo retrasa la carrera crítica el tiempo indicado", "correct": false}
+            ],
+            "type": 1
+        }
+        ,
+        
+        {
+            "question": "Si tengo una solución con espera activa, ¿me conviene usar pthread_yield para minimizar sus inconvenientes?",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No, es mejor usar execv", "correct": false},
+                {"text": "No, es mejor usar sleep", "correct": false},
+                {"text": "No, es mejor no usar ninguna función", "correct": false}
+            ],
+            "type": 1
+        }
+        ,
+        
+        {
+            "question": "Deshabilitar interrupciones en un sistema con dos cores ¿resyekve ek pribkena de las carreras críticas?",
+            "answers": [
+                {"text": "Si", "correct": true},
+                {"text": "No", "correct": false},
+                {"text": "Depende del número de usuarios", "correct": false},
+                {"text": "Depende del número de procesos", "correct": false}
+            ],
+            "type": 1
+        }
+        ,
+        
+        {
+            "question": "La alternancia estricta no es una solución adecuada para las carreras críticas, ya que",
+            "answers": [
+                {"text": "Un proceso puede estar esperando aunque la región crítica esté libre", "correct": true},
+                {"text": "No garantiza exclusión mutua", "correct": false},
+                {"text": "Implica espera activa", "correct": false},
+                {"text": "No funciona con más de dos procesos", "correct": false}
+            ],
+            "type": 1
+        }
+        ,
+        
+        {
+            "question": "La solución de Peterson...",
+            "answers": [
+                {"text": "Todo lo anterior es correcto", "correct": true},
+                {"text": "Es software", "correct": false},
+                {"text": "Implica espera activa", "correct": false},
+                {"text": "Sirve para varios cores", "correct": false}
+            ],
+            "type": 1
+        }
+        ,
+        
+        {
+            "question": "En la solución de Peterson ¿ocurre una carrera crítica?",
+            "answers": [
+                {"text": "Si pero es irrelevante", "correct": true},
+                {"text": "Si pero se puede corregir fácilmente", "correct": false},
+                {"text": "No por eso funciona bien", "correct": false},
+                {"text": "No la espera activa la evita", "correct": false}
+            ],
+            "type": 1
+        }
+        
+        ,
+        
+        {
+            "question": "Las variables candado no son una solución correcta para resolver al problema de las carreras críticas ya que...",
+            "answers": [
+                {"text": "No garantiza exclusión mutua", "correct": true},
+                {"text": "Usa variables compartidas", "correct": false},
+                {"text": "No garantiza que un proceso no espere indefinidamente", "correct": false},
+                {"text": "Sólo funciona en sistemas con un solo core", "correct": false}
+            ],
+            "type": 1
+        }
+        
+        ,
+        
+        {
+            "question": "Afirmación correcta sobre TSL",
+            "answers": [
+                {"text": "Realiza una lectura y una escritura en memoria de manera atómica", "correct": true},
+                {"text": "Es una rutina del kernel del sistema operativo", "correct": false},
+                {"text": "Utiliza dos posiciones de memoria virtual denominadas registro y lock", "correct": false},
+                {"text": "Todas las anteriores son ciertas", "correct": false}
+            ],
+            "type": 1
+        }
+
+    ]
+}
