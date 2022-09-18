@@ -4,14 +4,9 @@
         "img": "https://sites.google.com/site/cloudnuve2015/_/rsrc/1468864958044/home/base-de-datos-eficaces/descarga.jpg",
         "json": "bdi"
     },
-	{
-        "title": "Computación Gráfica",
-        "img": "https://cdn.britannica.com/36/130736-004-591432E3/graphics-image-Utah-Teapot-computer-systems.jpg",
-        "json": "coga"
-    },
     {
         "title": "Bases de Datos II",
-        "img": "https://sites.google.com/site/cloudnuve2015/_/rsrc/1468864958044/home/base-de-datos-eficaces/descarga.jpg",
+        "img": "https://aprender-libre.com/wp-content/uploads/2018/01/Objetivo-de-la-Base-Datos.jpg",
         "json": "bdii"
     },
     {
@@ -21,10 +16,14 @@
     },
     {
         "title": "Sistemas Operativos I",
-        "img": "https://sites.google.com/site/cloudnuve2015/_/rsrc/1468864958044/home/base-de-datos-eficaces/descarga.jpg",
+        "img": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/02/CPU.jpg?resize=640%2C360&quality=80&ssl=1",
         "json": "soi"
+    },
+	{
+        "title": "Computación Gráfica",
+        "img": "https://i.ytimg.com/vi/blkBBOtz6Qw/maxresdefault.jpg",
+        "json": "coga"
     }
-
 
 	
 ]
