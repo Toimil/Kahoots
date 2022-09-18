@@ -118,6 +118,117 @@
             ],
             "type": 1
         }
+        ,
+        
+        {
+            "question": "Si el tamaño del buffer es N. ¿Qué valores puede tomar el semáforo "vacías" en la solución vista en clase?",
+            "answers": [
+                {"text": "Entre 0 y N-1 inclusive", "correct": true},
+                {"text": "Entre 0 y N inclusive", "correct": false},
+                {"text": "Entre -N y N inclusive", "correct": false},
+                {"text": "Solamente 0 o 1", "correct": false}
+            ],
+            "type": 2
+        },
+        
+        {
+            "question": "¿Porqué en la definición de la función up, el proceso bloqueado por el correspondiente down debe volver a ejecutarlo?",
+            "answers": [
+                {"text": "Todas las anteriores son ciertas", "correct": true},
+                {"text": "Para volver a ganar el acceso a la región crítica", "correct": false},
+                {"text": "No haría falta si el S.O. lo desbloquea solo a él, y a ningún otro proceso", "correct": false},
+                {"text": "Quizás el que ejecuta el up entra enseguida en la región crítica otra vez", "correct": false}
+            ],
+            "type": 2
+        },
+        
+        {
+            "question": "¿Qué pasa si cuatro procesos quieren ejecutar un down al mismo tiempo en cores diferentes?",
+            "answers": [
+                {"text": "Las respuestas roja y azul son correctas", "correct": true},
+                {"text": "Roja: Quizás se bloquean los cuatro", "correct": false},
+                {"text": "Azul: Quizás no se bloquee ninguno", "correct": false},
+                {"text": "Verde: Seguro que no se bloquea ninguno", "correct": false}
+            ],
+            "type": 2
+        },
+        
+        {
+            "question": "En el código ensamblador con TSL para la función unlock, ¿dónde se libera al hilo que está bloqueado?",
+            "answers": [
+                {"text": "El bloqueado realmente está en espera activa, y ahora puede salir de ella", "correct": true},
+                {"text": "Eso falta en el código", "correct": false},
+                {"text": "La función unlock no desbloquea a nadie, así que no hace falta", "correct": false},
+                {"text": "Eso lo hará el SO y no hay necesidad de programarlo", "correct": false}
+            ],
+            "type": 2
+        },
+        
+        {
+            "question": "Respecto a la función trylock...",
+            "answers": [
+                {"text": "Sirve si hay algo que hacer alternativo a entrar en la región crítica", "correct": true},
+                {"text": "Casi siempre es mejor que lock porque no bloquea al proceso", "correct": false},
+                {"text": "Es como un lock pero sin bloquear al proceso", "correct": false},
+                {"text": "Sirve para intentar bloquear a otro proceso indicado como parámetro", "correct": false}
+            ],
+            "type": 2
+        },
+        
+        {
+            "question": "Una sincronización muy compleja con muchos condicionantes entre varios procesos la programaría con...",
+            "answers": [
+                {"text": "Semáforos", "correct": true},
+                {"text": "La solución de Peterson", "correct": false},
+                {"text": "Monitores", "correct": false},
+                {"text": "Señales", "correct": false}
+            ],
+            "type": 3
+        },
+        
+        {
+            "question": "Si solo quiero acceso exclusivo a una región crítica, sin más condicionantes, lo más sencillo para programarlo es ...",
+            "answers": [
+                {"text": "Monitores", "correct": true},
+                {"text": "Semáforos", "correct": false},
+                {"text": "La solución de Peterson", "correct": false},
+                {"text": "Señales", "correct": false}
+            ],
+            "type": 3
+        },
+        
+        {
+            "question": "En la solución al problema del productor consumidor con pase de mensajes vista en clase, ¿quién envía mensajes?",
+            "answers": [
+                {"text": "Ambos", "correct": true},
+                {"text": "El productor", "correct": false},
+                {"text": "El consumidor", "correct": false},
+                {"text": "El planificador", "correct": false}
+            ],
+            "type": 3
+        },
+        
+        {
+            "question": "Durante la ejecución de la solución, ¿quién envía más mensajes?",
+            "answers": [
+                {"text": "El consumidor", "correct": true},
+                {"text": "El productor", "correct": false},
+                {"text": "Los dos por igual", "correct": false},
+                {"text": "Es imposible saberlo con seguridad", "correct": false}
+            ],
+            "type": 3
+        },
+        
+        {
+            "question": "Las barreras de sincronización...",
+            "answers": [
+                {"text": "Bloquean a todos los procesos involucrados salvo a uno", "correct": true},
+                {"text": "No bloquean a ningún proceso", "correct": false},
+                {"text": "Solo bloquean a un proceso", "correct": false},
+                {"text": "Bloquean a todos los procesos involucrados", "correct": false}
+            ],
+            "type": 3
+        }
 
     ]
 }
