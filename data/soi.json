@@ -121,7 +121,7 @@
         ,
         
         {
-            "question": "Si el tamaño del buffer es N. ¿Qué valores puede tomar el semáforo "vacías" en la solución vista en clase?",
+            "question": "Si el tamaño del buffer es N. ¿Qué valores puede tomar el semáforo 'vacías' en la solución vista en clase?",
             "answers": [
                 {"text": "Entre 0 y N-1 inclusive", "correct": true},
                 {"text": "Entre 0 y N inclusive", "correct": false},
